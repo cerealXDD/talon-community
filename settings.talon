@@ -150,12 +150,12 @@ cursor right tiny:
 prefix:
 	key('ctrl-\\')
 
-term next:
-	key('ctrl-\\')
-	key('right')
+#term next:
+#	key('ctrl-\\')
+#	key('right')
 #term last:
 #	key('ctrl-\\')
 #	key('left')
-term previous:
-	key('ctrl-\\')
-	key('left')
+#term previous:
+#	key('ctrl-\\')
+#	key('left')
