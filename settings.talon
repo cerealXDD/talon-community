@@ -138,13 +138,13 @@ cursor up:
 cursor right:
 	key('f4')
 
-cursor left tiny:
+cursor tiny left:
 	key('f5')
-cursor down tiny:
+cursor tiny down:
 	key('f6')
-cursor up tiny:
+cursor tiny up:
 	key('f7')
-cursor right tiny:
+cursor tiny right:
 	key('f8')
 
 prefix:
