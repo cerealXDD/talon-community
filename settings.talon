@@ -129,22 +129,22 @@ screen on:
 screen off:
 	key('delete')
 
-mouse go leftwards:
+mouse go left:
 	key('f1')
-mouse go downwards:
+mouse go down:
 	key('f2')
-mouse go upwards:
+mouse go up:
 	key('f3')
-mouse go rightwards:
+mouse go right:
 	key('f4')
 
-mouse go leftwards tiny:
+mouse go left tiny:
 	key('f5')
-mouse go downwards tiny:
+mouse go down tiny:
 	key('f6')
-mouse go upwards tiny:
+mouse go up tiny:
 	key('f7')
-mouse go rightwards tiny:
+mouse go right tiny:
 	key('f8')
 
 prefix:
