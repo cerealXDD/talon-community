@@ -1,0 +1,24 @@
+list: user.system_paths
+hostname: DESKTOP-6S1S4LM
+-
+user: C:\Users\miked
+desktop: C:\Users\miked\Desktop
+desk: C:\Users\miked\Desktop
+documents: C:\Users\miked\Documents
+docks: C:\Users\miked\Documents
+downloads: C:\Users\miked\Downloads
+music: C:\Users\miked\Music
+pictures: C:\Users\miked\Pictures
+videos: C:\Users\miked\Videos
+talon home: C:\Users\miked\AppData\Roaming\talon
+talon recordings: C:\Users\miked\AppData\Roaming\talon\recordings
+talon user: C:\Users\miked\AppData\Roaming\talon\user
+profile: C:\Users\miked
+google drive: C:\Users\miked\drive\mikedabcdefg
+windows drive: C:\Users\miked\OneDrive
+gallery download: C:\Users\miked\gallery-dl
+youtube download: C:\Users\miked\yt-dlp
+media other: C:\Users\miked\media-misc
+media out: C:\Users\miked\ffmpeg-out
+media copy: C:\Users\miked\mpv-copy
+screenshots: C:\Users\miked\Pictures\Screenshots
