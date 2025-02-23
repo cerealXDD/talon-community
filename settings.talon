@@ -153,6 +153,7 @@ leader:
 	key('\\')
 
 
+
 volume silent:
 	edit.page_down()
 volume noise:
@@ -167,3 +168,10 @@ terminal:
 	key('win-1')
 chrome:
 	key('win-2')
+
+skis:
+
+quote:
+
+righty
+
