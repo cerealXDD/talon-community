@@ -149,6 +149,8 @@ mouse right tiny:
 
 prefix:
 	key('ctrl-\\')
+leader::
+	key('\\')
 
 #term next:
 #	key('ctrl-\\')
@@ -159,3 +161,8 @@ prefix:
 #term previous:
 #	key('ctrl-\\')
 #	key('left')
+
+#volume silent::
+#	key('pgup')
+#volume noise::
+#	edit.page_up()
