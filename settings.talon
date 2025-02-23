@@ -175,3 +175,7 @@ quote:
 
 righty:
 
+control down:
+
+control up:
+
