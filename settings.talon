@@ -166,7 +166,7 @@ page up:
 
 terminal:
 	key('win-1')
-chrome:
+web browser:
 	key('win-2')
 
 skis:
