@@ -173,5 +173,5 @@ skis:
 
 quote:
 
-righty
+righty:
 
