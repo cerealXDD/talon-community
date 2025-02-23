@@ -162,3 +162,8 @@ page down:
 	key('ctrl-down')
 page up:
 	key('ctrl-up')
+
+terminal:
+	key('win-1')
+chrome:
+	key('win-2')
