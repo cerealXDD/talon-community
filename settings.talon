@@ -197,3 +197,9 @@ prefix tab:
 
 prefix grave:
 
+ada typhon:
+
+space:
+
+spacebar:
+ key('space')
