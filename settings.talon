@@ -177,37 +177,41 @@ web browser:
 #clear right:
 #	key('win-delete')
 
-#skis:
-#
-#twin:
-#
-#quote:
-#
-#righty:
-#
-#control down:
-#
-#control up:
-#
-#super one:
-#
-#super two:
-#
-#delete:
-#
-#insert:
-#
-#back tick:
-#
-#backslash:
-#
-#control backslash:
-#
-#prefix tab:
-#
-#prefix grave:
-#
-#ada typhon:
+skis:
+
+twin:
+
+quote:
+
+righty:
+
+control down:
+
+control up:
+
+control left:
+
+control right:
+
+super one:
+
+super two:
+
+delete:
+
+insert:
+
+back tick:
+
+backslash:
+
+control backslash:
+
+prefix tab:
+
+prefix grave:
+
+ada typhon:
 
 #space:
 
