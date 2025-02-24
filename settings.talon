@@ -199,7 +199,7 @@ prefix grave:
 
 ada typhon:
 
-space:
+#space:
 
-spacebar:
- key('space')
+#spacebar:
+# key('space')
