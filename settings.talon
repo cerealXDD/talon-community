@@ -174,40 +174,40 @@ terminal:
 web browser:
 	key('win-2')
 
-clear right:
-	key('win-delete')
+#clear right:
+#	key('win-delete')
 
-skis:
-
-twin:
-
-quote:
-
-righty:
-
-control down:
-
-control up:
-
-super one:
-
-super two:
-
-delete:
-
-insert:
-
-back tick:
-
-backslash:
-
-control backslash:
-
-prefix tab:
-
-prefix grave:
-
-ada typhon:
+#skis:
+#
+#twin:
+#
+#quote:
+#
+#righty:
+#
+#control down:
+#
+#control up:
+#
+#super one:
+#
+#super two:
+#
+#delete:
+#
+#insert:
+#
+#back tick:
+#
+#backslash:
+#
+#control backslash:
+#
+#prefix tab:
+#
+#prefix grave:
+#
+#ada typhon:
 
 #space:
 
