@@ -143,13 +143,13 @@ mouse up:
 mouse right:
 	key('f4')
 
-mouse left tiny:
+mouse tiny left:
 	key('f5')
-mouse down tiny:
+mouse tiny down:
 	key('f6')
-mouse up tiny:
+mouse tiny up:
 	key('f7')
-mouse right tiny:
+mouse tiny right:
 	key('f8')
 
 prefix:
