@@ -183,3 +183,11 @@ super one:
 
 super two:
 
+delete:
+
+back tick:
+
+backslash:
+
+control backslash:
+
