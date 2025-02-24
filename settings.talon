@@ -130,9 +130,9 @@ screen off:
 	key('delete')
 
 screen record start:
-	key('win-{')
+	key('win-ctrl-{')
 screen record stop:
-	key('ctrl-win-{')
+	key('win-{')
 
 mouse left:
 	key('f1')
