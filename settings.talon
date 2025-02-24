@@ -129,6 +129,11 @@ screen on:
 screen off:
 	key('delete')
 
+screen record start:
+	key('win-{')
+screen record stop:
+	key('ctrl-win-{')
+
 mouse left:
 	key('f1')
 mouse down:
@@ -186,6 +191,8 @@ super one:
 super two:
 
 delete:
+
+insert
 
 back tick:
 
