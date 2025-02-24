@@ -124,10 +124,10 @@ speaker head:
 	key('win-}')
 
 screen on:
-	key('home')
+	key('insert')
 
 screen off:
-	key('end')
+	key('pause')
 
 screen record start:
 	key('win-ctrl-{')
@@ -217,7 +217,3 @@ prefix grave:
 
 ada typhon:
 
-#space:
-
-#spacebar:
-# key('space')
