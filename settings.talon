@@ -124,10 +124,10 @@ speaker head:
 	key('win-}')
 
 screen on:
-	key('insert')
+	key('home')
 
 screen off:
-	key('delete')
+	key('end')
 
 screen record start:
 	key('win-ctrl-{')
@@ -176,6 +176,10 @@ web browser:
 
 #clear right:
 #	key('win-delete')
+
+home:
+
+end:
 
 skis:
 
