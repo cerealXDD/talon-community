@@ -211,7 +211,7 @@ backslash:
 
 control backslash:
 
-prefix tab:
+#prefix tab:
 
 prefix grave:
 
