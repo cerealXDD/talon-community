@@ -179,17 +179,7 @@ web browser:
 #clear right:
 #	key('win-delete')
 
-cut down:
-
-cut down <number_small>:
-
-cut up:
-
-cut up <number_small>:
-
-cut left:
-
-cut right:
+cut [<number>] <user.arrow_key>:
 
 home:
 
