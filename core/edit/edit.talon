@@ -42,10 +42,10 @@ indent [more]: edit.indent_more()
 (indent less | out dent): edit.indent_less()
 
 # Copy
-copy that: edit.copy()
+#copy that: edit.copy()
 
 # Cut
-cut that: edit.cut()
+#cut that: edit.cut()
 
 # Paste
 (pace | paste) that: edit.paste()
