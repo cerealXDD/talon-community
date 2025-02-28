@@ -134,22 +134,22 @@ screen record start:
 screen record stop:
 	key('win-{')
 
-mouse west:
+cursor west:
 	key('f1')
-mouse south:
+cursor south:
 	key('f2')
-mouse north:
+cursor north:
 	key('f3')
-mouse east:
+cursor east:
 	key('f4')
 
-mouse tiny west:
+cursor tiny west:
 	key('f5')
-mouse tiny south:
+cursor tiny south:
 	key('f6')
-mouse tiny north:
+cursor tiny north:
 	key('f7')
-mouse tiny east:
+cursor tiny east:
 	key('f8')
 
 prefix:
