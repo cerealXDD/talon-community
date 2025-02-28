@@ -42,14 +42,14 @@ mid click:
     key("{modifiers}:up")
     # close the mouse grid
     user.grid_close()
-<user.modifiers> righty:
-    # close zoom if open
-    tracking.zoom_cancel()
-    key("{modifiers}:down")
-    mouse_click(1)
-    key("{modifiers}:up")
-    # close the mouse grid
-    user.grid_close()
+#<user.modifiers> righty:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    key("{modifiers}:down")
+#    mouse_click(1)
+#    key("{modifiers}:up")
+#    # close the mouse grid
+#    user.grid_close()
 (dub click | duke):
     # close zoom if open
     tracking.zoom_cancel()
@@ -65,19 +65,19 @@ mid click:
     mouse_click()
     # close the mouse grid
     user.grid_close()
-left drag | drag start:
+drag start:
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(0)
     # close the mouse grid
     user.grid_close()
-right drag | righty drag:
+right drag:
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(1)
     # close the mouse grid
     user.grid_close()
-end drag | drag end: user.mouse_drag_end()
+end drag: user.mouse_drag_end()
 wheel down: user.mouse_scroll_down()
 wheel down here:
     user.mouse_move_center_active_window()
