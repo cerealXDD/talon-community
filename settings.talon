@@ -135,6 +135,7 @@ screen record stop:
 	key('win-{')
 
 #cursor will say cut, disable for now
+#mouse also says cut
 mouse west:
 	key('f1')
 mouse south:
