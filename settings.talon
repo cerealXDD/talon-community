@@ -136,22 +136,22 @@ screen record stop:
 
 #cursor will say cut, disable for now
 #mouse also says cut
-mouse west:
+west:
 	key('f1')
-mouse south:
+south:
 	key('f2')
-mouse north:
+north:
 	key('f3')
-mouse east:
+east:
 	key('f4')
 
-mouse tiny west:
+west tiny:
 	key('f5')
-mouse tiny south:
+south tiny:
 	key('f6')
-mouse tiny north:
+north tiny:
 	key('f7')
-mouse tiny east:
+east tiny:
 	key('f8')
 
 prefix:
@@ -179,7 +179,7 @@ web browser:
 #clear right:
 #	key('win-delete')
 
-cut [<number>] <user.arrow_key>:
+#cut [<number>] <user.arrow_key>:
 
 home:
 
