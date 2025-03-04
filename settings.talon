@@ -136,31 +136,31 @@ screen record stop:
 
 #cursor will say cut, disable for now
 #mouse also says cut
-mouse move [<number>] left:
+mouse move [<number_small>] left:
 	key('f1')
-	repeat(number - 1)
-mouse move [<number>] down:
+	repeat(number_small - 1)
+mouse move [<number_small>] down:
 	key('f2')
-	repeat(number - 1)
-mouse move [<number>] up:
+	repeat(number_small - 1)
+mouse move [<number_small>] up:
 	key('f3')
-	repeat(number - 1)
-mouse move [<number>] right:
+	repeat(number_small - 1)
+mouse move [<number_small>] right:
 	key('f4')
-	repeat(number - 1)
+	repeat(number_small - 1)
 
-mouse move [<number>] tiny left:
+mouse move [<number_small>] tiny left:
 	key('f5')
-	repeat(number - 1)
-mouse move [<number>] tiny down:
+	repeat(number_small - 1)
+mouse move [<number_small>] tiny down:
 	key('f6')
-	repeat(number - 1)
-mouse move [<number>] tiny up:
+	repeat(number_small - 1)
+mouse move [<number_small>] tiny up:
 	key('f7')
-	repeat(number - 1)
-mouse move [<number>] tiny right:
+	repeat(number_small - 1)
+mouse move [<number_small>] tiny right:
 	key('f8')
-	repeat(number - 1)
+	repeat(number_small - 1)
 
 prefix:
 	key('ctrl-\\')
