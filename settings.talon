@@ -171,7 +171,7 @@ leader:
 
 volume silent:
 	edit.page_down()
-volume noise:
+volume noisy:
 	edit.page_up()
 
 page down:
