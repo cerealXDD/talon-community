@@ -131,7 +131,7 @@ screen off:
 
 screen record start:
 	key('win-ctrl-{')
-screen record stop:
+end screen record:
 	key('win-{')
 
 #cursor will say cut, disable for now
