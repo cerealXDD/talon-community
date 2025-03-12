@@ -13,12 +13,12 @@ touch:
     # Touch automatically ends left drags so this is for right drags specifically
     user.mouse_drag_end()
 
-#righty:
-#    # close zoom if open
-#    tracking.zoom_cancel()
-#    mouse_click(1)
-#    # close the mouse grid if open
-#    user.grid_close()
+right click:
+    # close zoom if open
+    tracking.zoom_cancel()
+    mouse_click(1)
+    # close the mouse grid if open
+    user.grid_close()
 
 mid click:
     # close zoom if open
@@ -77,7 +77,7 @@ right drag:
     user.mouse_drag(1)
     # close the mouse grid
     user.grid_close()
-end drag: user.mouse_drag_end()
+stop drag: user.mouse_drag_end()
 wheel down: user.mouse_scroll_down()
 wheel down here:
     user.mouse_move_center_active_window()
