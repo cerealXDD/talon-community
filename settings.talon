@@ -129,9 +129,9 @@ screen on:
 screen off:
 	key('pause')
 
-screen record start:
+recording start:
 	key('win-ctrl-{')
-stop screen record:
+stop recording:
 	key('win-{')
 
 #cursor will say cut, disable for now
