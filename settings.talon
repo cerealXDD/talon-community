@@ -162,6 +162,8 @@ orient [<number_small>] tiny right:
 	key('f8')
 	repeat(number_small - 1)
 
+signal interrupt:
+	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
 leader:
