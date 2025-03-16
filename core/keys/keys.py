@@ -136,9 +136,9 @@ punctuation_words = {
     #"pound sign": "£",
     "hyphen": "-",
     #"L paren": "(",
-    #"left paren": "(",
+    "left paren": "(",
     #"R paren": ")",
-    #"right paren": ")",
+    "right paren": ")",
 }
 symbol_key_words = {
     "dot": ".",

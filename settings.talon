@@ -191,17 +191,17 @@ web browser:
 
 #cut [<number>] <user.arrow_key>:
 
-home:
+#home:
 
-end:
+#end:
 
 skis:
 
 twin:
 
-quote:
+#quote:
 
-righty:
+#righty:
 
 control down:
 
@@ -215,15 +215,15 @@ super one:
 
 super two:
 
-delete:
+#delete:
 
-insert:
+#insert:
 
-back tick:
+#back tick:
 
-backslash:
+#backslash:
 
-control backslash:
+#control backslash:
 
 #prefix tab:
 
