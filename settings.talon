@@ -127,7 +127,8 @@ screen on:
 	key('insert')
 
 screen off:
-	key('pause')
+	#key('pause')
+	key('scroll_lock')
 
 recording start:
 	key('win-ctrl-{')
