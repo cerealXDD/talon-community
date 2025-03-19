@@ -1,13 +1,13 @@
 list: user.prose_snippets
 -
 spacebar: " "
-space: " "
-new line: "\n"
+#space: " "
+#new line: "\n"
 enter: "\n"
-new paragraph: "\n\n"
+#new paragraph: "\n\n"
 # Curly quotes are used to obtain proper spacing for left and right quotes, but will later be straightened.
-open quote: "“"
-close quote: "”"
-smiley: :-)
-winky: ;-)
-frowny: :-(
+#open quote: "“"
+#close quote: "”"
+#smiley: :-)
+#winky: ;-)
+#frowny: :-(

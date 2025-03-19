@@ -1,8 +1,8 @@
 list: user.currency
 -
-dollar: $
-dollars: $
-euro: €
-euros: €
-pound: £
-pounds: £
+currency dollar: $
+currency dollars: $
+currency euro: €
+currency euros: €
+currency pound: £
+currency pounds: £

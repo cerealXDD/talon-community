@@ -11,11 +11,12 @@ page down: pagedown
 page up: pageup
 escape: escape
 #signal escape: escape
-#spacebar: space
-space: space
+spacebar: space
+#space: space
 tab: tab
 #insert: insert
 wipe: backspace
+wipe right: backspace
 #delete: backspace
 #forward delete: delete
 #menu key: menu

@@ -42,7 +42,7 @@ indent [more]: edit.indent_more()
 (indent less | out dent): edit.indent_less()
 
 # Copy
-#copy that: edit.copy()
+copy that: edit.copy()
 
 # Cut
 #cut that: edit.cut()
@@ -60,7 +60,7 @@ clone line: edit.line_clone()
 
 # Insert new line
 new line above: edit.line_insert_up()
-new line below | slap: edit.line_insert_down()
+new line below: edit.line_insert_down()
 
 # Insert padding with optional symbols
 padding: user.insert_between(" ", " ")
