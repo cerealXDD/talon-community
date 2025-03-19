@@ -5,7 +5,8 @@ list: user.letter
 
 air: a
 bat: b
-cap: c
+#cap: c
+canine: c
 drum: d
 each: e
 fine: f

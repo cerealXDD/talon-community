@@ -199,7 +199,7 @@ symbol_key_words = {
     #"double quote": '"',
     "double": '"',
     # Currencies
-    #"dollar": "$",
+    "dollar": "$",
     #"pound": "£",
 }
 
