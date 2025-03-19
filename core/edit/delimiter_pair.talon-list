@@ -13,13 +13,13 @@ twin round: ( )
 twin box: [ ]
 twin diamond: < >
 twin face: { }
-twin single: "' '"
+twin apostrophe: "' '"
 twin double: '" "'
 twin skis: ` `
 twin percentages: % %
 twin pad: space space
 
 twin escaped double: '\\" \\"'
-twin escaped single:  "\\' \\'"
+twin escaped apostrophe:  "\\' \\'"
 twin escaped round: \( \)
 twin escaped box: \[ \]
