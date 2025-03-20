@@ -169,14 +169,14 @@ interrupt cig:
 	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
-leader:
-	key('\\')
+#leader:
+#	key('\\')
 
 
 
-volume silent:
+volume mute:
 	edit.page_down()
-volume noisy:
+volume unmute:
 	edit.page_up()
 
 page down:
@@ -186,7 +186,7 @@ page up:
 
 terminal:
 	key('win-1')
-web browser:
+internet:
 	key('win-2')
 
 #clear right:
