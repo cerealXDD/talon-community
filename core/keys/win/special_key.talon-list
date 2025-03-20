@@ -16,7 +16,7 @@ spacebar: space
 tab: tab
 #insert: insert
 wipe: backspace
-wipe right: backspace
+wipe right: delete
 #delete: backspace
 #forward delete: delete
 #menu key: menu

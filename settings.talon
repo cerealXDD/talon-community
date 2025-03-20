@@ -163,7 +163,9 @@ orient [<number_small>] tiny right:
 	key('f8')
 	repeat(number_small - 1)
 
-interrupt:
+talon flame:
+	user.insert_formatted("talon", "NOOP")
+interrupt cig:
 	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
