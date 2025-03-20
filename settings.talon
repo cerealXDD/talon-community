@@ -136,31 +136,31 @@ stop recording:
 
 #cursor will say cut, disable for now
 #mouse also says cut
-orient left [<number_small> times]:
+orient left:
 	key('f1')
-	repeat(number_small - 1)
-orient down [<number_small> times]:
-	key('f2')
-	repeat(number_small - 1)
-orient up [<number_small> times]:
-	key('f3')
-	repeat(number_small - 1)
-orient right [<number_small> times]:
-	key('f4')
-	repeat(number_small - 1)
 
-orient tiny left [<number_small> times]:
+orient down:
+	key('f2')
+
+orient up:
+	key('f3')
+
+orient right:
+	key('f4')
+
+
+orient tiny left:
 	key('f5')
-	repeat(number_small - 1)
-orient tiny down [<number_small> times]:
+
+orient tiny down:
 	key('f6')
-	repeat(number_small - 1)
-orient tiny up [<number_small> times]:
+
+orient tiny up:
 	key('f7')
-	repeat(number_small - 1)
-orient tiny right [<number_small> times]:
+
+orient tiny right:
 	key('f8')
-	repeat(number_small - 1)
+
 
 
 talon flame:
