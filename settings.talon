@@ -137,35 +137,36 @@ stop recording:
 
 #cursor will say cut, disable for now
 #mouse also says cut
-orient [<number_small>] left:
+orient left [<number_small> times]:
 	key('f1')
 	repeat(number_small - 1)
-orient [<number_small>] down:
+orient down [<number_small> times]:
 	key('f2')
 	repeat(number_small - 1)
-orient [<number_small>] up:
+orient up [<number_small> times]:
 	key('f3')
 	repeat(number_small - 1)
-orient [<number_small>] right:
+orient right [<number_small> times]:
 	key('f4')
 	repeat(number_small - 1)
 
-orient [<number_small>] tiny left:
+orient tiny left [<number_small> times]:
 	key('f5')
 	repeat(number_small - 1)
-orient [<number_small>] tiny down:
+orient tiny down [<number_small> times]:
 	key('f6')
 	repeat(number_small - 1)
-orient [<number_small>] tiny up:
+orient tiny up [<number_small> times]:
 	key('f7')
 	repeat(number_small - 1)
-orient [<number_small>] tiny right:
+orient tiny right [<number_small> times]:
 	key('f8')
 	repeat(number_small - 1)
 
+
 talon flame:
 	user.insert_formatted("talon", "NOOP")
-interrupt cig:
+cig in:
 	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
