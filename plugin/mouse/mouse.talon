@@ -50,14 +50,16 @@ mid click:
 #    key("{modifiers}:up")
 #    # close the mouse grid
 #    user.grid_close()
-(dub click | duke):
+#(dub click | duke):
+double click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click()
     mouse_click()
     # close the mouse grid
     user.grid_close()
-(trip click | trip lick):
+#(trip click | trip lick):
+triple click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click()
