@@ -14,8 +14,8 @@ next one: edit.find_next()
 # Navigation
 
 # The reason for these spoken forms is that "page up" and "page down" are globally defined as keys.
-scroll up: edit.page_up()
-scroll down: edit.page_down()
+#scroll up: edit.page_up()
+#scroll down: edit.page_down()
 
 # go left, go left left down, go 5 left 2 down
 # go word left, go 2 words right
@@ -38,8 +38,8 @@ go page up: edit.page_up()
 go page down: edit.page_down()
 
 # Indentation
-indent [more]: edit.indent_more()
-(indent less | out dent): edit.indent_less()
+#indent [more]: edit.indent_more()
+#(indent less | out dent): edit.indent_less()
 
 # Copy
 copy that: edit.copy()

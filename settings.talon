@@ -55,11 +55,10 @@ settings():
     user.grids_put_one_bottom_left = true
 
     # Set the default number of command history lines to display
-    user.command_history_display = 10
+    user.command_history_display = 45
 
     # Set the total number of command history lines to display
-    user.command_history_size = 50
-
+    user.command_history_size = 45
     # Set the time window size for to for pop_twice_to_sleep and pop_twice_to_repeat. By default, the pops must be more than 0.1 seconds apart and less then 0.3 seconds, to reduce false positives
     user.double_pop_speed_minimum = 0.1
     user.double_pop_speed_maximum = 0.3
