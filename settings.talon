@@ -122,6 +122,8 @@ key(f10):
 wifi reconnect:
 	key('f11')
 
+shift <user.letter>:
+
 speaker box:
 	key('win-]')
 
