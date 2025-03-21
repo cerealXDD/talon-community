@@ -137,7 +137,7 @@ screen off:
 	#key('pause')
 	key('scroll_lock')
 
-recording start:
+start recording:
 	key('win-ctrl-{')
 stop recording:
 	key('win-{')

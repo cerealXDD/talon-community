@@ -28,7 +28,7 @@ middle click:
     # close the mouse grid
     user.grid_close()
 
-mouse center:
+mouse core:
 	key('win-c')
 
 #see keys.py for modifiers.
