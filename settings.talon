@@ -109,12 +109,18 @@ settings():
 # you can say "one" to write "1".
 # tag(): user.unprefixed_numbers
 
+vim dent:
+	key('ctrl-v')
+	key('tab')
+
 key(f9):
     sound.set_microphone("None")
 
 key(f10):
     sound.set_microphone("System Default")
-key(f11): speech.toggle()
+#key(f11): speech.toggle()
+wifi reconnect:
+	key('f11')
 
 speaker box:
 	key('win-]')
