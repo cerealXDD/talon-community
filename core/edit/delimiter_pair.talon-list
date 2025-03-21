@@ -14,12 +14,12 @@ twin square: [ ]
 twin angle: < >
 twin curly: { }
 twin apostrophe: "' '"
-twin bunny: '" "'
+twin bunny rabbit: '" "'
 twin grave: ` `
 twin percent: % %
 twin spacebar: space space
 
-twin escaped bunny: '\\" \\"'
+twin escaped bunny rabbit: '\\" \\"'
 twin escaped apostrophe:  "\\' \\'"
 twin escaped paren: \( \)
 twin escaped square: \[ \]

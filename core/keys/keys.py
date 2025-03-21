@@ -138,7 +138,8 @@ punctuation_words = {
     #"right paren": ")",
 }
 symbol_key_words = {
-    "dot": ".",
+    #too many problems with this, will activate just based on slight movement of my head
+    #"dot": ".",
     "point": ".",
     "winky": ";",
     "iris": ":",

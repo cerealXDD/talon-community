@@ -3,7 +3,8 @@ control off: user.mouse_sleep()
 zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
-touch:
+#touch:
+mouse click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(0)
@@ -20,12 +21,15 @@ right click:
     # close the mouse grid if open
     user.grid_close()
 
-mid click:
+middle click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(2)
     # close the mouse grid
     user.grid_close()
+
+mouse center:
+	key('win-c')
 
 #see keys.py for modifiers.
 #defaults
@@ -34,7 +38,8 @@ mid click:
 #option = alt
 #shift
 #super = windows key
-<user.modifiers> touch:
+#<user.modifiers> touch:
+<user.modifiers> mouse click:
     # close zoom if open
     tracking.zoom_cancel()
     key("{modifiers}:down")
@@ -67,13 +72,13 @@ triple click:
     mouse_click()
     # close the mouse grid
     user.grid_close()
-drag start:
+mouse drag:
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(0)
     # close the mouse grid
     user.grid_close()
-right drag start:
+mouse right drag
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(1)
@@ -133,9 +138,9 @@ wheel tiny right here:
     user.mouse_move_center_active_window()
     user.mouse_scroll_right(0.5)
 copy mouse position: user.copy_mouse_position()
-curse no:
-    # Command added 2021-12-13, can remove after 2022-06-01
-    app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")
+#curse no:
+#    # Command added 2021-12-13, can remove after 2022-06-01
+#    app.notify("Please activate the user.mouse_cursor_commands_enable tag to enable this command")
 
 # To scroll with a hiss sound, set mouse_enable_hiss_scroll to true in settings.talon
 mouse hiss up: user.hiss_scroll_up()
