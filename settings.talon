@@ -194,8 +194,17 @@ page up:
 
 terminal:
 	key('win-1')
-internet:
+spider web:
 	key('win-2')
+minimize all:
+	key('win-m')
+
+wipe <number_small>:
+	key('backspace')
+	repeat(number_small - 1)
+wipe <number_small> right:
+	key('delete')
+	repeat(number_small - 1)
 
 #clear right:
 #	key('win-delete')
