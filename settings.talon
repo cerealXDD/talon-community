@@ -199,7 +199,7 @@ spider web:
 minimize all:
 	key('win-m')
 
-wipe <number_small>:
+wipe <number_small> left:
 	key('backspace')
 	repeat(number_small - 1)
 wipe <number_small> right:

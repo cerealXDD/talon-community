@@ -1,5 +1,6 @@
 list: user.edit_modifier_repeatable
 -
+#go before word, go after word
 word: word
 word left: wordLeft
 word right: wordRight

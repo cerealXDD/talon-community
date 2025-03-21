@@ -4,4 +4,4 @@ list: user.prose_formatter
 #speak: NOOP
 #sentence: CAPITALIZE_FIRST_WORD
 sentence: NOOP
-title: CAPITALIZE_ALL_WORDS
+#title: CAPITALIZE_ALL_WORDS

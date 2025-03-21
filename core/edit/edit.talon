@@ -3,13 +3,13 @@
 <user.edit_action> <user.edit_modifier>: user.edit_command(edit_action, edit_modifier)
 
 # Zoom
-zoom in: edit.zoom_in()
-zoom out: edit.zoom_out()
-zoom reset: edit.zoom_reset()
+edit zoom in: edit.zoom_in()
+edit zoom out: edit.zoom_out()
+edit zoom reset: edit.zoom_reset()
 
 # Searching
-find it: edit.find()
-next one: edit.find_next()
+edit find it: edit.find()
+edit next one: edit.find_next()
 
 # Navigation
 
@@ -21,8 +21,8 @@ next one: edit.find_next()
 # go word left, go 2 words right
 go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 
-go line start | head: edit.line_start()
-go line end | tail: edit.line_end()
+go line start: edit.line_start()
+go line end: edit.line_end()
 
 go way left:
     edit.line_start()
@@ -40,6 +40,7 @@ go page down: edit.page_down()
 # Indentation
 #indent [more]: edit.indent_more()
 #(indent less | out dent): edit.indent_less()
+out dent: edit.indent_less()
 
 # Copy
 copy that: edit.copy()
@@ -55,26 +56,27 @@ copy that: edit.copy()
 paste match: edit.paste_match_style()
 
 # Duplication
-clone that: edit.selection_clone()
-clone line: edit.line_clone()
+#clone that: edit.selection_clone()
+edit clone line: edit.line_clone()
 
 # Insert new line
 new line above: edit.line_insert_up()
 new line below: edit.line_insert_down()
 
 # Insert padding with optional symbols
-padding: user.insert_between(" ", " ")
-(pad | padding) <user.symbol_key>+:
+padding spacebar: user.insert_between(" ", " ")
+#(pad | padding) <user.symbol_key>+:
+padding <user.symbol_key>+:
     insert(" ")
     user.insert_many(symbol_key_list)
     insert(" ")
 
 # Undo/redo
-undo that: edit.undo()
-redo that: edit.redo()
+edit undo: edit.undo()
+edit redo: edit.redo()
 
 # Save
 file save: edit.save()
 file save all: edit.save_all()
 
-[go] line mid: user.line_middle()
+go line middle: user.line_middle()
