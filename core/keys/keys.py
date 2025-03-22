@@ -110,12 +110,13 @@ ctx = Context()
 punctuation_words = {
     # TODO: I'm not sure why we need these, I think it has something to do with
     # Dragon. Possibly it has been fixed by later improvements to talon? -rntz
-    "`": "`",
-    ",": ",",  # <== these things
+    #"`": "`",
+    #",": ",",  # <== these things
     #"back tick": "`",
-    "comma": ",",
+    #"comma": ",",
     # Workaround for issue with conformer b-series; see #946
-    "coma": ",",
+    #"coma": ",",
+    "comatose": ",",
     "period": ".",
     "full stop": ".",
     #"slash": "/",
@@ -142,8 +143,7 @@ symbol_key_words = {
     #"dot": ".",
     #"point": ".",
     "winky": ";",
-    "iris": ":",
-    "hi res": ":",
+    "headlights": ":",
     #"quote": "'",
     "question": "?",
     "apostrophe": "'",

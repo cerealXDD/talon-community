@@ -15,7 +15,7 @@ spacebar: space
 #space: space
 tab: tab
 #insert: insert
-wipe: backspace
+wipe left: backspace
 wipe right: delete
 #delete: backspace
 #forward delete: delete
