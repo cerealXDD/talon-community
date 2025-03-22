@@ -140,7 +140,7 @@ punctuation_words = {
 symbol_key_words = {
     #too many problems with this, will activate just based on slight movement of my head
     #"dot": ".",
-    "point": ".",
+    #"point": ".",
     "winky": ";",
     "iris": ":",
     "hi res": ":",
