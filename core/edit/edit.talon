@@ -27,9 +27,9 @@ go line end: edit.line_end()
 go way left:
     edit.line_start()
     edit.line_start()
-go way right: edit.line_end()
-go way up: edit.file_start()
-go way down: edit.file_end()
+#go way right: edit.line_end()
+#go way up: edit.file_start()
+#go way down: edit.file_end()
 
 go top: edit.file_start()
 go bottom: edit.file_end()
@@ -56,7 +56,7 @@ copy that: edit.copy()
 paste match: edit.paste_match_style()
 
 # Duplication
-#clone that: edit.selection_clone()
+#edit clone that: edit.selection_clone()
 edit clone line: edit.line_clone()
 
 # Insert new line
@@ -76,7 +76,7 @@ edit undo: edit.undo()
 edit redo: edit.redo()
 
 # Save
-file save: edit.save()
-file save all: edit.save_all()
+edit save: edit.save()
+edit save all: edit.save_all()
 
 go line middle: user.line_middle()
