@@ -1,9 +1,14 @@
 #<user.letter>: key(letter)
 #(ship | uppercase) <user.letters> [(lowercase | sunk)]:
 #    user.insert_formatted(letters, "ALL_CAPS")
-(letter | lower) [<user.letters>]:
+(letter | lower):
+
+(letter | lower) <user.letters>:
     user.insert_formatted(letters, "NOOP")
-upper [<user.letters>]:
+
+upper:
+
+upper <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 #(letter | lower) <user.letters>:
 #    user.insert_formatted(letters, "NOOP")
