@@ -137,6 +137,9 @@ screen off:
 	#key('pause')
 	key('scroll_lock')
 
+hi my name is:
+	mjahighello bitchehello bitcheshigh high high highshjqikd
+
 auto hotkey restart:
 	user.system_command("wsl.exe bash -c '. ~/.bashrc; vital-restart'")
 start recording:
