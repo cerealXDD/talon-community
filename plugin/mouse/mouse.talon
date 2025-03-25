@@ -14,14 +14,14 @@ mouse click:
     # Touch automatically ends left drags so this is for right drags specifically
     user.mouse_drag_end()
 
-right click:
+mouse right click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(1)
     # close the mouse grid if open
     user.grid_close()
 
-middle click:
+mouse middle click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(2)
@@ -47,16 +47,16 @@ mouse core:
     key("{modifiers}:up")
     # close the mouse grid
     user.grid_close()
-#<user.modifiers> righty:
-#    # close zoom if open
-#    tracking.zoom_cancel()
-#    key("{modifiers}:down")
-#    mouse_click(1)
-#    key("{modifiers}:up")
-#    # close the mouse grid
-#    user.grid_close()
+<user.modifiers> mouse right click:
+    # close zoom if open
+    tracking.zoom_cancel()
+    key("{modifiers}:down")
+    mouse_click(1)
+    key("{modifiers}:up")
+    # close the mouse grid
+    user.grid_close()
 #(dub click | duke):
-double click:
+mouse double click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click()
@@ -64,7 +64,7 @@ double click:
     # close the mouse grid
     user.grid_close()
 #(trip click | trip lick):
-triple click:
+mouse triple click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click()
