@@ -138,7 +138,7 @@ screen off:
 	key('scroll_lock')
 
 hi my name is:
-	mja
+	mjahigh
 
 auto hotkey restart:
 	user.system_command("wsl.exe bash -c '. ~/.bashrc; vital-restart'")
