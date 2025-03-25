@@ -137,11 +137,11 @@ screen off:
 	#key('pause')
 	key('scroll_lock')
 
-hi my name is:
-	mja
+#hi my name is:
+#	mjajk
 
-auto hotkey restart:
-	user.system_command("wsl.exe bash -c '. ~/.bashrc; vital-restart'")
+#auto hotkey restart:
+#	user.system_command_nb("wsl.exe bash -c '. ~/.bashrc; ahk-test-run'")
 start recording:
 	key('win-ctrl-{')
 stop recording:
