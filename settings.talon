@@ -137,8 +137,8 @@ screen off:
 	#key('pause')
 	key('scroll_lock')
 
-#hi my name is:
-#	mjajk
+hi my name is:
+	this is an error
 
 #auto hotkey restart:
 #	user.system_command_nb("wsl.exe bash -c '. ~/.bashrc; ahk-test-run'")
@@ -163,16 +163,16 @@ orient right:
 
 
 orient tiny left:
-	key('f5')
+	key('ctrl-f1')
 
 orient tiny down:
-	key('f6')
+	key('ctrl-f2')
 
 orient tiny up:
-	key('f7')
+	key('ctrl-f3')
 
 orient tiny right:
-	key('f8')
+	key('ctrl-f4')
 
 
 
@@ -188,14 +188,14 @@ prefix:
 
 
 volume mute:
-	edit.page_down()
+	key('f6')
 volume unmute:
-	edit.page_up()
+	key('f7')
 
-page down:
-	key('ctrl-down')
-page up:
-	key('ctrl-up')
+#page down:
+#	key('ctrl-down')
+#page up:
+#	key('ctrl-up')
 
 terminal:
 	key('win-1')

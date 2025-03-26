@@ -3,9 +3,9 @@
 <user.edit_action> <user.edit_modifier>: user.edit_command(edit_action, edit_modifier)
 
 # Zoom
-edit zoom in: edit.zoom_in()
-edit zoom out: edit.zoom_out()
-edit zoom reset: edit.zoom_reset()
+zoom in: edit.zoom_in()
+zoom out: edit.zoom_out()
+zoom reset: edit.zoom_reset()
 
 # Searching
 edit find it: edit.find()
@@ -24,15 +24,18 @@ go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 go line start: edit.line_start()
 go line end: edit.line_end()
 
-go way left:
-    edit.line_start()
-    edit.line_start()
+go file start: edit.file_start()
+go file end: edit.file_end()
+
+#go way left:
+#    edit.line_start()
+#    edit.line_start()
 #go way right: edit.line_end()
 #go way up: edit.file_start()
 #go way down: edit.file_end()
 
-go top: edit.file_start()
-go bottom: edit.file_end()
+#go top: edit.file_start()
+#go bottom: edit.file_end()
 
 go page up: edit.page_up()
 go page down: edit.page_down()
@@ -40,7 +43,7 @@ go page down: edit.page_down()
 # Indentation
 #indent [more]: edit.indent_more()
 #(indent less | out dent): edit.indent_less()
-out dent: edit.indent_less()
+#out dent: edit.indent_less()
 
 # Copy
 copy that: edit.copy()

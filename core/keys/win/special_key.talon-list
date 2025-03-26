@@ -7,8 +7,8 @@ os: linux
 #home: home
 minus: minus
 enter: enter
-page down: pagedown
-page up: pageup
+#page down: pagedown
+#page up: pageup
 escape: escape
 #signal escape: escape
 spacebar: space
