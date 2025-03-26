@@ -138,7 +138,7 @@ screen off:
 	key('scroll_lock')
 
 hi my name is:
-	this is an errorlhjhello
+	this is an errorlhjhellobye
 
 #auto hotkey restart:
 #	user.system_command_nb("wsl.exe bash -c '. ~/.bashrc; ahk-test-run'")
