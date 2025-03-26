@@ -6,8 +6,8 @@
 #repeat that <number_small> [times]: core.repeat_command(number_small)
 #repeat <number_small> times: core.repeat_command(number_small)
 
-repeat that [<number_small> times]:
+repeat part [<number_small> times]:
     core.repeat_command(number_small or 1)
 
-repeat phrase [<number_small> times]:
+repeat full [<number_small> times]:
     core.repeat_partial_phrase(number_small or 1)
