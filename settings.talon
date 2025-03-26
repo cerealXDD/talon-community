@@ -187,6 +187,10 @@ prefix:
 
 
 
+volume up:
+	key('f8')
+volume down:
+	key('f5')
 volume mute:
 	key('f6')
 volume unmute:
