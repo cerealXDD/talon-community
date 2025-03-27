@@ -109,6 +109,15 @@ settings():
 # you can say "one" to write "1".
 # tag(): user.unprefixed_numbers
 
+unix plex:
+	user.insert_formatted("tmux", "NOOP")
+
+unix vim:
+	user.insert_formatted("vim", "NOOP")
+
+unix git:
+	user.insert_formatted("git", "NOOP")
+
 vim dent:
 	key('ctrl-v')
 	key('tab')
