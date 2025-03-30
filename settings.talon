@@ -122,6 +122,9 @@ vim dent:
 	key('ctrl-v')
 	key('tab')
 
+#vim line <number_small>:
+#	user.insert_formatted(number_small, "NOOP")
+
 key(f9):
     sound.set_microphone("None")
 
@@ -145,12 +148,6 @@ screen on:
 screen off:
 	#key('pause')
 	key('scroll_lock')
-
-hi my name is:
-	this is an errorlhjhellobye
-
-#auto hotkey restart:
-#	user.system_command_nb("wsl.exe bash -c '. ~/.bashrc; ahk-test-run'")
 
 start recording:
 	key('win-ctrl-{')
