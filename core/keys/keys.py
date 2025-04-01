@@ -116,7 +116,7 @@ punctuation_words = {
     #"comma": ",",
     # Workaround for issue with conformer b-series; see #946
     #"coma": ",",
-    "comatose": ",",
+    "cometa": ",",
     "peridot": ".",
     "full stop": ".",
     "slash": "/",
