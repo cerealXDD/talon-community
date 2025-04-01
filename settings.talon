@@ -118,12 +118,15 @@ unix vim:
 unix git:
 	user.insert_formatted("git", "NOOP")
 
+unix grape:
+	insert('grep')
+
 vim dent:
 	key('ctrl-v')
 	key('tab')
 
-vim line <number_small>:
-	insert("\%{number_small}l")
+vim line <number>:
+	insert("\%{number}l")
 
 key(f9):
     sound.set_microphone("None")
