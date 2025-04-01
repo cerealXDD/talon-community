@@ -122,8 +122,8 @@ vim dent:
 	key('ctrl-v')
 	key('tab')
 
-#vim line <number_small>:
-#	user.insert_formatted(number_small, "NOOP")
+vim line <number_small>:
+	insert("\%{number_small}l")
 
 key(f9):
     sound.set_microphone("None")
