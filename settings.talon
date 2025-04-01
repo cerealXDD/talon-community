@@ -128,7 +128,7 @@ vim dent:
 	key('ctrl-v')
 	key('tab')
 
-vim line <number>:
+vim line [number] <number>:
 	insert("\%{number}l")
 
 peridot dot:
