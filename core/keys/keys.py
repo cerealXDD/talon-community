@@ -172,7 +172,7 @@ symbol_key_words = {
     "minus": "-",
     #"dash": "-",
     "equals": "=",
-    "quadrant": "+",
+    "pluto": "+",
     "gravel": "`",
     #"tilde": "~",
     "squiggly": "~",

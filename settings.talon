@@ -121,12 +121,18 @@ unix git:
 unix grape:
 	insert('grep')
 
+vim grape:
+	insert('vimgrep')
+
 vim dent:
 	key('ctrl-v')
 	key('tab')
 
 vim line <number>:
 	insert("\%{number}l")
+
+peridot dot:
+	insert('..')
 
 key(f9):
     sound.set_microphone("None")
