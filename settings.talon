@@ -231,48 +231,9 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
-#clear right:
-#	key('win-delete')
+sewer <user.arrow_key>:
 
-#cut [<number>] <user.arrow_key>:
-
-#home:
-
-#end:
-
-#skis:
-
-#twin:
-
-#quote:
-
-#righty:
-
-control down:
-
-control up:
-
-control left:
-
-control right:
-
-super one:
-
-super two:
-
-#delete:
-
-#insert:
-
-#back tick:
-
-#backslash:
-
-#control backslash:
-
-#prefix tab:
-
-prefix grave:
+sewer <user.arrow_key>:
 
 ada typhon:
 

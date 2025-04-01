@@ -2,12 +2,15 @@ list: user.modifier_key
 os: windows
 os: linux
 -
-alt: alt
-control: ctrl
+#alt: alt
+#control: ctrl
 #troll: ctrl
+sour: ctrl
+sewer: ctrl
+salty: alt
 shift: shift
 # super is the windows key
 super: super
-command: ctrl
+#command: ctrl
 #this is hard to say
 #option: alt
