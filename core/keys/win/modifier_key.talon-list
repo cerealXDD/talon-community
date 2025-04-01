@@ -6,7 +6,7 @@ os: linux
 #control: ctrl
 #troll: ctrl
 sour: ctrl
-sewer: ctrl
+#sewer: ctrl
 salty: alt
 shift: shift
 # super is the windows key

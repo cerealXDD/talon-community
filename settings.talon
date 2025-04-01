@@ -231,9 +231,9 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
-sewer <user.arrow_key>:
+#sewer <user.arrow_key>:
 
-sewer <user.arrow_key>:
+sour <user.arrow_key>:
 
 ada typhon:
 
