@@ -233,13 +233,10 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
-#sewer <user.arrow_key>:
+shift enter:
+	key('shift-enter')
 
-#sour <user.arrow_key>:
-
-#shift <user.letter>:
-
-ada typhon:
+#ada typhon:
 
 tab last:
 
