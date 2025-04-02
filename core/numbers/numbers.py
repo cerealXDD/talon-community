@@ -43,7 +43,7 @@ def get_spoken_form_under_one_hundred(
             # oh prefix digit: "oh five"-> `05`
             if include_oh_variant_for_single_digits:
                 result[f"oh {digit_list[digit_index]}"] = f"0{value}"
-            # default digit: "five" -> `5`
+            #default digit: "five" -> `5`
             if include_default_variant_for_single_digits:
                 result[f"{digit_list[digit_index]}"] = f"{value}"
         elif value < 20:
@@ -211,7 +211,7 @@ alt_scales = "(" + "|".join(scales_map.keys()) + ")"
 number_word = "(" + "|".join(numbers_map.keys()) + ")"
 # don't allow numbers to start with scale words like "hundred", "thousand", etc
 leading_words = numbers_map.keys() - scales_map.keys()
-leading_words -= {"oh", "o"}  # comment out to enable bare/initial "oh"
+#leading_words -= {"oh", "o"}  # comment out to enable bare/initial "oh"
 number_word_leading = f"({'|'.join(leading_words)})"
 
 
@@ -262,7 +262,8 @@ def number_signed(m) -> int:
     return int(m.number_signed_string)
 
 
-@mod.capture(rule="<user.number_string> ((dot | point) <user.number_string>)+")
+#@mod.capture(rule="<user.number_string> ((dot | point) <user.number_string>)+")
+@mod.capture(rule="<user.number_string> (point <user.number_string>)+")
 def number_prose_with_dot(m) -> str:
     return ".".join(m.number_string_list)
 
@@ -284,8 +285,8 @@ def number_prose_unprefixed(m) -> str:
     return m[0]
 
 
-#@mod.capture(rule="(numb | numeral) <user.number_prose_unprefixed>")
-@mod.capture(rule="number <user.number_prose_unprefixed>")
+@mod.capture(rule="(numb | numeral) <user.number_prose_unprefixed>")
+#@mod.capture(rule="number <user.number_prose_unprefixed>")
 def number_prose_prefixed(m) -> str:
     return m.number_prose_unprefixed
 
