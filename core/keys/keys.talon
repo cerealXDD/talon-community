@@ -24,8 +24,9 @@ upper <user.letters>:
 
 <user.modifiers> letter <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> upper <user.letter>: key("{modifiers}-shift-{letter}")
-<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
 shift <user.function_key>: key("shift-{function_key}")
+<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
+
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
 
 # for key combos consisting only of modifiers, eg. `press super`.
