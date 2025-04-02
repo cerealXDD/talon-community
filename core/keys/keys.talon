@@ -20,6 +20,7 @@ upper <user.letters>:
 <user.modifiers> <user.symbol_key>: key("{modifiers}-{symbol_key}")
 <user.modifiers> <user.function_key>: key("{modifiers}-{function_key}")
 <user.modifiers> <user.special_key>: key("{modifiers}-{special_key}")
+<user.modifiers> <user.arrow_key>: key("{modifiers}-{arrow_key}")
 
 <user.modifiers> letter <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> upper <user.letter>: key("{modifiers}-shift-{letter}")
