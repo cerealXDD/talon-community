@@ -109,6 +109,9 @@ settings():
 # you can say "one" to write "1".
 # tag(): user.unprefixed_numbers
 
+#test:
+#	key('shift-a')
+
 unix plex:
 	user.insert_formatted("tmux", "NOOP")
 
@@ -143,7 +146,6 @@ key(f10):
 wifi reconnect:
 	key('f11')
 
-shift <user.letter>:
 
 speaker box:
 	key('win-]')
@@ -233,7 +235,9 @@ wipe <number_small> right:
 
 #sewer <user.arrow_key>:
 
-sour <user.arrow_key>:
+#sour <user.arrow_key>:
+
+#shift <user.letter>:
 
 ada typhon:
 
