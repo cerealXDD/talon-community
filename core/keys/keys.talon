@@ -16,7 +16,11 @@ upper <user.letters>:
 <user.special_key>: key(special_key)
 #<user.keypad_key>: key(keypad_key)
 
-<user.modifiers> <user.unmodified_key>: key("{modifiers}-{unmodified_key}")
+#<user.modifiers> <user.unmodified_key>: key("{modifiers}-{unmodified_key}")
+<user.modifiers> <user.symbol_key>: key("{modifiers}-{symbol_key}")
+<user.modifiers> <user.function_key>: key("{modifiers}-{function_key}")
+<user.modifiers> <user.special_key>: key("{modifiers}-{special_key}")
+
 <user.modifiers> letter <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> upper <user.letter>: key("{modifiers}-shift-{letter}")
 <user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
