@@ -21,13 +21,13 @@ mouse right click:
     # close the mouse grid if open
     user.grid_close()
 
-mouse right enter:
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click(1)
-    # close the mouse grid if open
-    user.grid_close()
-    key(enter)
+#mouse right enter:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    mouse_click(1)
+#    # close the mouse grid if open
+#    user.grid_close()
+#    key(enter)
 
 mouse middle click:
     # close zoom if open
