@@ -30,7 +30,7 @@ not speech.engine: dragon
 #
 # It's a useful and well known command, though, so if you're using any other speech
 # engine, this controls Talon.
-^go to sleep go to sleep[<phrase>]$: speech.disable()
+^go to sleep go to sleep [<phrase>]$: speech.disable()
 #^talon sleep [<phrase>]$: speech.disable()
 
 ^sleep all [<phrase>]$:
