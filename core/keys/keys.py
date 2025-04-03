@@ -1,5 +1,7 @@
 from talon import Context, Module, actions, app
 
+
+
 mod = Module()
 mod.list("letter", desc="The spoken phonetic alphabet")
 mod.list("symbol_key", desc="All symbols from the keyboard")
