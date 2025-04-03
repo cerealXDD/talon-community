@@ -12,7 +12,7 @@ tens = "twenty thirty forty fifty sixty seventy eighty ninety".split()
 scales = "hundred thousand million billion trillion quadrillion quintillion sextillion septillion octillion nonillion decillion".split()
 
 digits_map = {n: i for i, n in enumerate(digit_list)}
-digits_map["oh"] = 0
+#digits_map["oh"] = 0
 teens_map = {n: i + 10 for i, n in enumerate(teens)}
 tens_map = {n: 10 * (i + 2) for i, n in enumerate(tens)}
 scales_map = {n: 10 ** (3 * (i + 1)) for i, n in enumerate(scales[1:])}
@@ -211,7 +211,7 @@ alt_scales = "(" + "|".join(scales_map.keys()) + ")"
 number_word = "(" + "|".join(numbers_map.keys()) + ")"
 # don't allow numbers to start with scale words like "hundred", "thousand", etc
 leading_words = numbers_map.keys() - scales_map.keys()
-#leading_words -= {"oh", "o"}  # comment out to enable bare/initial "oh"
+leading_words -= {"oh", "o"}  # comment out to enable bare/initial "oh"
 number_word_leading = f"({'|'.join(leading_words)})"
 
 
