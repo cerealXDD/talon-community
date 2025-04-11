@@ -238,6 +238,9 @@ wipe <number_small> right:
 shift enter:
 	key('shift-enter')
 
+shift tab:
+	key('shift-tab')
+
 #ada typhon:
 
 #tab last:
