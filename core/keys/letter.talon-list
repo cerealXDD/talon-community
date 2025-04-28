@@ -31,16 +31,19 @@ list: user.letter
 #yank: y
 #zip: z
 
-air: a
+#air: a
+ape: a
 bat: b
 #cap: c
 core: c
-drum: d
+#drum: d
+draco: d
 each: e
 fine: f
 glow: g
 harp: h
-icy: i
+#icy: i
+ivy: i
 jury: j
 ketchup :k
 look: l
@@ -48,7 +51,10 @@ made: m
 near: n
 odd: o
 pan: p
-quit: q
+cute: q
+#quit: q
+#cupid: q
+#quench: q
 red: r
 sun: s
 trap: t
@@ -56,7 +62,8 @@ urge: u
 vest: v
 whale: w
 fox: x
-yank: y
+#yank: y
+yoink: y
 zip: z
 
 #alpha: a

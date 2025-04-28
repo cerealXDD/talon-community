@@ -4,7 +4,8 @@ zoom mouse: tracking.control_zoom_toggle()
 camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
 #touch:
-mouse (click | lick):
+#mouse (click | lick):
+mouse left click:
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(0)
@@ -36,7 +37,8 @@ mouse middle click:
     # close the mouse grid
     user.grid_close()
 
-mouse core:
+#mouse core:
+mouse (center | centre):
 	key('win-c')
 
 #see keys.py for modifiers.
@@ -47,7 +49,8 @@ mouse core:
 #shift
 #super = windows key
 #<user.modifiers> touch:
-<user.modifiers> mouse click:
+#<user.modifiers> mouse click:
+<user.modifiers> mouse left click:
     # close zoom if open
     tracking.zoom_cancel()
     key("{modifiers}:down")
