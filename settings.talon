@@ -244,6 +244,9 @@ shift enter:
 shift tab:
 	key('shift-tab')
 
+context menu:
+	key('win-ctrl-v')
+
 #ada typhon:
 
 #tab last:
