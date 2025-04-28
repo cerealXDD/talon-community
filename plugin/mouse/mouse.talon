@@ -83,7 +83,7 @@ mouse triple click:
     mouse_click()
     # close the mouse grid
     user.grid_close()
-mouse drag:
+mouse left drag:
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(0)

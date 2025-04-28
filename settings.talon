@@ -241,7 +241,8 @@ wipe <number_small> right:
 shift enter:
 	key('shift-enter')
 
-shift tab:
+#shift tab:
+shift handle:
 	key('shift-tab')
 
 context menu:

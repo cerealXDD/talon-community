@@ -13,7 +13,8 @@ escape: escape
 #signal escape: escape
 spacebar: space
 #space: space
-tab: tab
+#tab: tab
+handle: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete
