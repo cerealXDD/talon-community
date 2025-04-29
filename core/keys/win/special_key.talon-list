@@ -14,7 +14,8 @@ escape: escape
 spacebar: space
 #space: space
 #tab: tab
-handle: tab
+#handle: tab
+beacon: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete

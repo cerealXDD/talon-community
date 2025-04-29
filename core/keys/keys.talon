@@ -2,12 +2,12 @@
 #    user.insert_formatted(letters, "ALL_CAPS")
 
 #$ after this does not work, might need to restart talon
-letter:
+#letter:
 
 letter <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
-upper:
+#upper:
 
 upper <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")

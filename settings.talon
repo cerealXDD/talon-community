@@ -248,6 +248,12 @@ shift handle:
 context menu:
 	key('win-ctrl-v')
 
+#force latex and struck
+
+#letter:
+
+#upper:
+
 #ada typhon:
 
 #tab last:
