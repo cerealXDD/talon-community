@@ -46,10 +46,12 @@ harp: h
 ivy: i
 jury: j
 #ketchup: k
+steak: k
 #cheesesteak: k
 #cheesecake: k
-cake: k
+#cake: k
 #kick: k
+#flask: k
 look: l
 made: m
 near: n
@@ -57,8 +59,8 @@ odd: o
 pan: p
 #cute: q
 #quit: q
-#earthquake: q
-cupid: q
+earthquake: q
+#cupid: q
 #quench: q
 red: r
 sun: s
