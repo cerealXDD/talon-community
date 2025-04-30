@@ -14,7 +14,7 @@ twin square: [ ]
 twin angle: < >
 twin curly: { }
 twin apostrophe: "' '"
-twin bunny rabbit: '" "'
+twin bunny: '" "'
 twin grave: ` `
 twin percent: % %
 twin spacebar: space space
