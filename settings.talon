@@ -137,7 +137,7 @@ vim line [number] <number>:
 	insert("\%{number}l")
 
 vim line top:
-	insert("\%1l")
+	insert("\\\\%1l")
 
 peridot dot:
 	insert('..')
