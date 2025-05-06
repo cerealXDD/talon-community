@@ -25,7 +25,11 @@ not speech.engine: dragon
 #^(wake up)+$: speech.enable()
 #^wake up wake up wake up [<phrase>]$: speech.enable()
 #^awaken awaken [awaken]+$: speech.enable()
-^revival revival$: speech.enable()
+#^revival revival$: speech.enable()
+
+^revival revival revival [<phrase>]$:
+	speech.enable()
+	key('insert')
 
 # We define this *only* if the speech engine isn't Dragon, because if you're using Dragon,
 # "go to sleep" is used to specifically control Dragon, and not affect Talon.
@@ -34,7 +38,12 @@ not speech.engine: dragon
 # engine, this controls Talon.
 #^go to sleep go to sleep [<phrase>]$: speech.disable()
 #^nocturnal nocturnal [<phrase>]$: speech.disable()
-^nocturnal nocturnal$: speech.disable()
+#^nocturnal nocturnal$: speech.disable()
+
+^nocturnal nocturnal nocturnal [<phrase>]$:
+	speech.disable()
+	key('scroll_lock')
+
 #^talon sleep [<phrase>]$: speech.disable()
 
 ^sleep all [<phrase>]$:
