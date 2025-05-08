@@ -1,4 +1,4 @@
-(help alphabet | alphabet): user.help_list("user.letter")
+(help letters | alphabet): user.help_list("user.letter")
 help symbols: user.help_list("user.symbol_key")
 help numbers: user.help_list("user.number_key")
 help punctuation: user.help_list("user.punctuation")
@@ -16,5 +16,6 @@ help snip: user.help_list("user.snippet")
 
 help formatters:
     user.help_formatters(user.get_formatters_words(), false)
-help re formatters:
+#help re formatters:
+help reformatters:
     user.help_formatters(user.get_reformatters_words(), true)
