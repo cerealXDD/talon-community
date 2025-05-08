@@ -5,7 +5,7 @@ camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
 #touch:
 #mouse (click | lick):
-mouse left click:
+(mouse left click | mouse touch):
     # close zoom if open
     tracking.zoom_cancel()
     mouse_click(0)
@@ -50,7 +50,7 @@ mouse (center | centre):
 #super = windows key
 #<user.modifiers> touch:
 #<user.modifiers> mouse click:
-<user.modifiers> mouse left click:
+<user.modifiers> (mouse left click | mouse touch):
     # close zoom if open
     tracking.zoom_cancel()
     key("{modifiers}:down")
@@ -83,7 +83,7 @@ mouse triple click:
     mouse_click()
     # close the mouse grid
     user.grid_close()
-mouse left drag:
+(mouse left drag | mouse trawl):
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(0)
