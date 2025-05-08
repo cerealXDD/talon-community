@@ -145,7 +145,7 @@ symbol_key_words = {
     #too many problems with this, will activate just based on slight movement of my head
     #"dot": ".",
     #"point": ".",
-    "lament": ";",
+    "teardrop": ";",
     "headlights": ":",
     #"quote": "'",
     "question": "?",
