@@ -43,6 +43,7 @@ not speech.engine: dragon
 ^twilight twilight twilight [<phrase>]$: speech.disable()
 
 ^nocturnal nocturnal nocturnal [<phrase>]$:
+	speech.enable()
 	speech.disable()
 	key('scroll_lock')
 
