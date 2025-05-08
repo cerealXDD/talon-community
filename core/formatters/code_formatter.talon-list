@@ -1,20 +1,20 @@
 list: user.code_formatter
 -
-all upper: ALL_CAPS
-all lower: ALL_LOWERCASE
-all cap: CAPITALIZE_ALL_WORDS
+upper: ALL_CAPS
+lower: ALL_LOWERCASE
+capsize: CAPITALIZE_ALL_WORDS
+smash: NO_SPACES
+public: PUBLIC_CAMEL_CASE
+private: PRIVATE_CAMEL_CASE
 peridot: DOT_SEPARATED
-cometa: COMMA_SEPARATED
+comatose: COMMA_SEPARATED
 string: SINGLE_QUOTED_STRING
 bunny string: DOUBLE_QUOTED_STRING
-camel: PRIVATE_CAMEL_CASE
 minus: DASH_SEPARATED
 traffic: DOUBLE_COLON_SEPARATED
 spacebar: SPACE_SURROUNDED_STRING
 absolute: ALL_SLASHES
 relative: SLASH_SEPARATED
-smash: NO_SPACES
-cap smash: PUBLIC_CAMEL_CASE
 underscore: SNAKE_CASE
 dunder: DOUBLE_UNDERSCORE
-constant: ALL_CAPS,SNAKE_CASE
+#constant: ALL_CAPS,SNAKE_CASE

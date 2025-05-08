@@ -2,10 +2,10 @@ list: user.word_formatter
 -
 
 #word: NOOP
-monocle: NOOP
-cap monocle: CAPITALIZE_FIRST_WORD
-upper monocle: ALL_CAPS
-lower monocle: ALL_LOWERCASE
+#monocle: NOOP
+capsize: CAPITALIZE_FIRST_WORD
+upper: ALL_CAPS
+lower: ALL_LOWERCASE
 #trot: TRAILING_SPACE
 #proud: CAPITALIZE_FIRST_WORD
 #leap: TRAILING_SPACE,CAPITALIZE_FIRST_WORD
