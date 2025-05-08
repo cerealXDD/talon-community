@@ -15,7 +15,7 @@ format <user.format_code>+ {user.phrase_ender}:
     insert(phrase_ender)
 reformat <user.formatters> that: user.formatters_reformat_selection(user.formatters)
 unit {user.word_formatter} <user.word>: user.insert_formatted(word, word_formatter)
-sentry <user.word>: insert(word)
+sentry <user.word>: user.insert_formatted(word, "NOOP")
 reformat <user.formatters> paste: user.insert_formatted(clip.text(), formatters)
 #recent phrase list: user.toggle_phrase_history()
 #recent phrase close: user.phrase_history_hide()

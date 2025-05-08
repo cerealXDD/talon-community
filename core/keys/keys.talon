@@ -4,7 +4,7 @@
 #$ after this does not work, might need to restart talon
 #letter:
 
-letter <user.letters>:
+(letter | litter | ladder) <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
@@ -32,6 +32,6 @@ shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
 
 # for key combos consisting only of modifiers, eg. `press super`.
-press <user.modifiers>: key(modifiers)
+press mod <user.modifiers>: key(modifiers)
 # for consistency with dictation mode and explicit arrow keys if you need them.
-press <user.keys>: key(keys)
+press key <user.keys>: key(keys)

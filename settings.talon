@@ -238,8 +238,8 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
-shift enter:
-	key('shift-enter')
+#shift enter:
+#	key('shift-enter')
 
 #shift tab:
 shift handle:

@@ -6,7 +6,9 @@ os: linux
 #end: end
 #home: home
 minus: minus
-enter: enter
+#enter: enter
+carriage: enter
+courage: enter
 #page down: pagedown
 #page up: pageup
 escape: escape

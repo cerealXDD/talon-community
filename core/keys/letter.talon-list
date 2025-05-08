@@ -32,8 +32,10 @@ list: user.letter
 #zip: z
 
 #air: a
-ape: a
-bat: b
+#ape: a
+alpha: a
+#bat: b
+bet: b
 #cap: c
 core: c
 #drum: d
@@ -46,7 +48,9 @@ harp: h
 ivy: i
 jury: j
 #ketchup: k
-steak: k
+#steak: k
+#kilo: k
+king: k
 #cheesesteak: k
 #cheesecake: k
 #cake: k
@@ -59,9 +63,10 @@ odd: o
 pan: p
 #cute: q
 #quit: q
-earthquake: q
+#earthquake: q
 #cupid: q
 #quench: q
+quebec: q
 red: r
 sun: s
 trap: t
