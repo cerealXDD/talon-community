@@ -31,6 +31,11 @@ not speech.engine: dragon
 	speech.enable()
 	key('insert')
 
+#^revival revival transit <phrase>:
+#	speech.enable()
+#	key('insert')
+#	core.repeat_partial_phrase(1)
+
 # We define this *only* if the speech engine isn't Dragon, because if you're using Dragon,
 # "go to sleep" is used to specifically control Dragon, and not affect Talon.
 #
