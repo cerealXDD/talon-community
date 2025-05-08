@@ -12,8 +12,10 @@ page focus: browser.focus_page()
 
 bookmark it: browser.bookmark()
 #bookmark tabs: browser.bookmark_tabs()
-(refresh | reload) it soft: browser.reload()
-(refresh | reload) it hard: browser.reload_hard()
+#(refresh | reload) it soft: browser.reload()
+page reload soft: browser.reload()
+#(refresh | reload) it hard: browser.reload_hard()
+page reload hard: browser.reload_hard()
 
 bookmark show: browser.bookmarks()
 bookmark bar [show]: browser.bookmarks_bar()
@@ -29,4 +31,4 @@ dev tools [show]: browser.toggle_dev_tools()
 #show history: browser.show_history()
 #show cache: browser.show_clear_cache()
 
-new line: key('shift-enter')
+insert new line: key('shift-enter')
