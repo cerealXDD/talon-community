@@ -11,13 +11,15 @@ carriage: enter
 courage: enter
 #page down: pagedown
 #page up: pageup
-escape: escape
+#escape: escape
+dessert: escape
 #signal escape: escape
 spacebar: space
 #space: space
 #tab: tab
 #handle: tab
-beacon: tab
+#beacon: tab
+lumin: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete
