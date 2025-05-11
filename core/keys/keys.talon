@@ -4,12 +4,12 @@
 #$ after this does not work, might need to restart talon
 #letter:
 
-(letter | litter | ladder) <user.letters> end:
+(letter | litter | ladder) <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
 
-upper <user.letters> end:
+upper <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
 <user.symbol_key>: key(symbol_key)
