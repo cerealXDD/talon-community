@@ -19,7 +19,7 @@ spacebar: space
 #tab: tab
 #handle: tab
 #beacon: tab
-lumin: tab
+luminate: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete

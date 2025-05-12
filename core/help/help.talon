@@ -1,5 +1,5 @@
 #(help letters | alphabet): user.help_list("user.letter")
-alphabet: user.help_list("user.letter")
+alpha zeta: user.help_list("user.letter")
 help symbols: user.help_list("user.symbol_key")
 help numbers: user.help_list("user.number_key")
 help punctuation: user.help_list("user.punctuation")

@@ -80,11 +80,12 @@ odd: o
 #pan: p
 play: p
 #cute: q
-#quit: q
+quit: q
+queue: q
 #earthquake: q
 #cupid: q
 #quench: q
-quebec: q
+#quebec: q
 red: r
 sun: s
 #trap: t
