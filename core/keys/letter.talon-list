@@ -31,12 +31,13 @@ list: user.letter
 #yank: y
 #zip: z
 
-#air: a
+air: a
 #ape: a
 #alpha: a
 #aero: a
 #apes: a
-aura: a
+#aura: a
+#aur: a
 #bat: b
 bet: b
 calf: c
@@ -91,8 +92,9 @@ teach: t
 #urge: u
 use: u
 vest: v
-whale: w
-#whiskey: w
+#whale: w
+whisk: w
+#wonton: w
 fox: x
 #yank: y
 yoink: y
