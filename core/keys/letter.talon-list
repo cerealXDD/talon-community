@@ -58,12 +58,14 @@ glow: g
 #hunt: h
 #him: h
 #halt: h
-hole: h
+#hole: h
+hose: h
 #hint: h
 #icy: i
 ivy: i
+jello: j
 #jury: j
-jab: j
+#jab: j
 #kiwi: k
 #ketch: k
 #ketchup: k
@@ -102,7 +104,8 @@ sun: s
 #trap: t
 teach: t
 #urge: u
-use: u
+#use: u
+user: u
 vest: v
 whale: w
 #whisk: w
