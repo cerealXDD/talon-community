@@ -23,6 +23,8 @@ spacebar: space
 #luminate: tab
 #mozzarella: tab
 service: tab
+#pizza: tab
+#dungeon: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete
