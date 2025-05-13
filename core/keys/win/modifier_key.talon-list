@@ -5,7 +5,8 @@ os: linux
 #alt: alt
 #control: ctrl
 #troll: ctrl
-sour: ctrl
+sweet: ctrl
+#sour: ctrl
 #sewer: ctrl
 salty: alt
 #shift: shift
