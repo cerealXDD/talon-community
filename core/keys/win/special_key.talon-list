@@ -7,7 +7,8 @@ os: linux
 #home: home
 minus: minus
 #enter: enter
-carriage: enter
+feedback: enter
+#carriage return: enter
 #courage: enter
 #page down: pagedown
 #page up: pageup
@@ -19,7 +20,9 @@ spacebar: space
 #tab: tab
 #handle: tab
 #beacon: tab
-luminate: tab
+#luminate: tab
+#mozzarella: tab
+service: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete

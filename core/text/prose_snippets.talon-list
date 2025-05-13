@@ -2,9 +2,9 @@ list: user.prose_snippets
 -
 spacebar: " "
 #space: " "
-#new line: "\n"
+new line: "\n"
 #enter: "\n"
-carriage: "\n"
+#carriage: "\n"
 #courage: "\n"
 #new paragraph: "\n\n"
 # Curly quotes are used to obtain proper spacing for left and right quotes, but will later be straightened.

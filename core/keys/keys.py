@@ -181,7 +181,7 @@ symbol_key_words = {
     "bullseye": "+",
     #"gravel": "`",
     #"granite": "`",
-    "triad": "`",
+    #"triad": "`",
     "triangle": "`",
     #"tilde": "~",
     "squiggly": "~",
