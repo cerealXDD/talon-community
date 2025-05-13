@@ -4,7 +4,8 @@
 #$ after this does not work, might need to restart talon
 #letter:
 
-(letter | litter | ladder) <user.letters>:
+#(letter | litter | ladder) <user.letters>:
+letter <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
