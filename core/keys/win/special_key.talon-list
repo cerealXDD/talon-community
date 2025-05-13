@@ -8,7 +8,7 @@ os: linux
 minus: minus
 #enter: enter
 carriage: enter
-courage: enter
+#courage: enter
 #page down: pagedown
 #page up: pageup
 #escape: escape
