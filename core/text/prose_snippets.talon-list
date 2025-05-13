@@ -2,7 +2,8 @@ list: user.prose_snippets
 -
 spacebar: " "
 #space: " "
-new line: "\n"
+#new line: "\n"
+feedback: "\n"
 #enter: "\n"
 #carriage: "\n"
 #courage: "\n"
