@@ -50,9 +50,12 @@ cream: c
 #car: c
 #corn: c
 #drum: d
-draco: d
+#draco: d
+dance: d
+
 #each: e
 exam: e
+#excel: e
 #fine: f
 find: f
 glow: g
@@ -61,12 +64,13 @@ glow: g
 #him: h
 #halt: h
 #hole: h
-hose: h
+house: h
 #hint: h
 #ice: i
 #icy: i
 ivy: i
-jello: j
+jinx: j
+#jello: j
 #jury: j
 #jab: j
 #kiwi: k
@@ -106,9 +110,10 @@ red: r
 sun: s
 #trap: t
 teach: t
+urgent: u
 #urge: u
 #use: u
-user: u
+#user: u
 vest: v
 whale: w
 #whisk: w
