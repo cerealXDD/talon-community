@@ -13,7 +13,8 @@ feedback: enter
 #page down: pagedown
 #page up: pageup
 #escape: escape
-dessert: escape
+#dessert: escape
+vapor: escape
 #signal escape: escape
 spacebar: space
 #space: space
