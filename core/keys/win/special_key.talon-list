@@ -20,7 +20,9 @@ linefeed: enter
 #egret: escape
 #regret: escape
 #regrets: escape
-regress: escape
+#regress: escape
+#digress: escape
+digest: escape
 #signal escape: escape
 spacebar: space
 #space: space

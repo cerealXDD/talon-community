@@ -244,6 +244,7 @@ wipe <number_small> right:
 #	key('shift-enter')
 
 #shift tab:
+#	key('')
 
 #shift gamma:
 #	key('shift-tab')
