@@ -5,7 +5,7 @@ os: linux
 
 #end: end
 #home: home
-minus: minus
+#minus: minus
 #enter: enter
 feedback: enter
 #carriage return: enter
