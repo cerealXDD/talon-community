@@ -66,7 +66,8 @@ glow: g
 #him: h
 #halt: h
 #hole: h
-house: h
+#house: h
+hose: h
 #hint: h
 #ice: i
 #icy: i
@@ -116,11 +117,13 @@ red: r
 sun: s
 #trap: t
 teach: t
+#urn: u
 #urgent: u
-uber: u
+#uber: u
 #urge: u
 #use: u
-#user: u
+user: u
+#usurp: u
 vest: v
 whale: w
 #whisk: w
