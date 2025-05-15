@@ -19,7 +19,8 @@ linefeed: enter
 #emu: escape
 #egret: escape
 #regret: escape
-regrets: escape
+#regrets: escape
+regress: escape
 #signal escape: escape
 spacebar: space
 #space: space
