@@ -18,7 +18,8 @@ linefeed: enter
 #vapor: escape
 #emu: escape
 #egret: escape
-regret: escape
+#regret: escape
+regrets: escape
 #signal escape: escape
 spacebar: space
 #space: space
