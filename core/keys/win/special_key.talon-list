@@ -7,14 +7,18 @@ os: linux
 #home: home
 #minus: minus
 #enter: enter
-feedback: enter
+#feedback: enter
+linefeed: enter
 #carriage return: enter
 #courage: enter
 #page down: pagedown
 #page up: pageup
 #escape: escape
 #dessert: escape
-vapor: escape
+#vapor: escape
+#emu: escape
+#egret: escape
+regret: escape
 #signal escape: escape
 spacebar: space
 #space: space

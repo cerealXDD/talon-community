@@ -201,7 +201,9 @@ orient tiny right:
 
 talon flame:
 	user.insert_formatted("talon", "NOOP")
-cig in:
+#cig in:
+#	key('ctrl-c')
+chicken:
 	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
@@ -242,8 +244,10 @@ wipe <number_small> right:
 #	key('shift-enter')
 
 #shift tab:
-shift handle:
-	key('shift-tab')
+
+#shift gamma:
+#	key('shift-tab')
+
 
 context menu:
 	key('win-ctrl-v')

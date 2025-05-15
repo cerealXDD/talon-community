@@ -29,6 +29,8 @@ upper <user.letters>:
 <user.modifiers> upper <user.letter>: key("{modifiers}-shift-{letter}")
 shift <user.function_key>: key("shift-{function_key}")
 <user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
+shift <user.special_key>: key("shift-{special_key}")
+<user.modifiers> shift <user.special_key>: key("{modifiers}-shift-{special_key}")
 
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
 
