@@ -5,21 +5,25 @@
 #letter:
 
 #(letter | litter | ladder) <user.letters>:
-letter <user.letters>:
+#letter <user.letters>:
+#let <user.letters>:
+#lead <user.letters>:
+led <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
 
-upper <user.letters>:
+#upper <user.letters>:
+cap <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
-<user.symbol_key>: key(symbol_key)
+sim <user.symbol_key>: key(symbol_key)
 <user.function_key>: key(function_key)
 <user.special_key>: key(special_key)
 #<user.keypad_key>: key(keypad_key)
 
 #<user.modifiers> <user.unmodified_key>: key("{modifiers}-{unmodified_key}")
-<user.modifiers> <user.symbol_key>: key("{modifiers}-{symbol_key}")
+<user.modifiers> sim <user.symbol_key>: key("{modifiers}-{symbol_key}")
 <user.modifiers> <user.function_key>: key("{modifiers}-{function_key}")
 <user.modifiers> <user.special_key>: key("{modifiers}-{special_key}")
 <user.modifiers> arrow <user.arrow_key>: key("{modifiers}-{arrow_key}")
