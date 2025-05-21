@@ -18,6 +18,7 @@ cap <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
 sim <user.symbol_key>: key(symbol_key)
+#sim <user.symbol_keys>: key(symbol_keys)
 <user.function_key>: key(function_key)
 <user.special_key>: key(special_key)
 #<user.keypad_key>: key(keypad_key)
@@ -26,7 +27,8 @@ sim <user.symbol_key>: key(symbol_key)
 <user.modifiers> sim <user.symbol_key>: key("{modifiers}-{symbol_key}")
 <user.modifiers> <user.function_key>: key("{modifiers}-{function_key}")
 <user.modifiers> <user.special_key>: key("{modifiers}-{special_key}")
-<user.modifiers> arrow <user.arrow_key>: key("{modifiers}-{arrow_key}")
+#<user.modifiers> arrow <user.arrow_key>: key("{modifiers}-{arrow_key}")
+<user.modifiers> <user.arrow_key>: key("{modifiers}-{arrow_key}")
 <user.modifiers> number <user.number_key>: key("{modifiers}-{number_key}")
 
 <user.modifiers> led <user.letter>: key("{modifiers}-{letter}")

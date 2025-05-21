@@ -9,7 +9,8 @@ os: linux
 candy: ctrl
 #sour: ctrl
 #sewer: ctrl
-salty: alt
+#salty: alt
+briny: alt
 #shift: shift
 # super is the windows key
 super: super
