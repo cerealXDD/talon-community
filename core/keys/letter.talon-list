@@ -32,14 +32,17 @@ list: user.letter
 #zip: z
 
 #air: a
+#this gets confused with go up
 #ape: a
+axe: a
 #alpha: a
 #aero: a
 #apes: a
-aura: a
+#aura: a
 #aur: a
 #bat: b
-bet: b
+#bet: b
+bay: b
 cream: c
 #clap: c
 #calf: c
@@ -52,7 +55,9 @@ cream: c
 #drum: d
 #draco: d
 #dance: d
-day: d
+#day: d
+debt: d
+#ditto: d
 
 #each: e
 egg: e
@@ -70,8 +75,8 @@ glow: g
 hose: h
 #hint: h
 #ice: i
-#icy: i
-ivy: i
+icy: i
+#ivy: i
 jaw: j
 #jill: j
 #juice: j
@@ -97,7 +102,8 @@ kite: k
 #flask: k
 look: l
 made: m
-near: n
+#near: n
+north: n
 #noir: n
 odd: o
 #pan: p
@@ -119,13 +125,14 @@ sun: s
 teach: t
 #urn: u
 #urgent: u
-#uber: u
+uber: u
 #urge: u
 #use: u
-user: u
+#user: u
 #usurp: u
 vest: v
-whale: w
+#whale: w
+well: w
 #whisk: w
 #wonton: w
 fox: x
