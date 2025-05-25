@@ -31,10 +31,10 @@ list: user.letter
 #yank: y
 #zip: z
 
-#air: a
+air: a
 #this gets confused with go up
 #ape: a
-axe: a
+#axe: a
 #alpha: a
 #aero: a
 #apes: a
@@ -54,9 +54,10 @@ cream: c
 #corn: c
 #drum: d
 #draco: d
+drink: d
 #dance: d
 #day: d
-debt: d
+#debt: d
 #ditto: d
 
 #each: e
@@ -75,7 +76,8 @@ glow: g
 hose: h
 #hint: h
 #ice: i
-icy: i
+#icy: i
+inch: i
 #ivy: i
 jaw: j
 #jill: j
