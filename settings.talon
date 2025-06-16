@@ -151,6 +151,10 @@ key(f10):
 wifi reconnect:
 	key('f11')
 
+auto hotkey kill:
+#hotkey kill:
+	key('win-ctrl-e')
+
 
 speaker box:
 	key('win-]')
