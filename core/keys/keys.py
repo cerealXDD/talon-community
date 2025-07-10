@@ -98,10 +98,22 @@ def keys(m) -> str:
     "A sequence of one or more keys with optional modifiers"
     return " ".join(m.key_list)
 
-@mod.capture(rule="<self.letter> <self.number_key>")
+@mod.capture(rule="{self.letter}")
+def chess_letter(m) -> str:
+    "One letter key"
+    if(m.letter in 'abcdefgh'):
+        return m.letter
+
+@mod.capture(rule="{self.number_key}")
+def chess_number_key(m) -> str:
+    "One letter key"
+    if(m.number_key in '12345678'):
+        return m.number_key
+
+@mod.capture(rule="<self.chess_letter> <self.chess_number_key>")
 def chess_keys(m) -> str:
     "A sequence of one or more keys with optional modifiers"
-    return str(m.letter + ' ' + m.number_key)
+    return str(m.chess_letter + ' ' + m.chess_number_key)
 
 @mod.capture(rule="{self.letter}+")
 def letters(m) -> str:
