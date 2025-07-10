@@ -44,3 +44,7 @@ shift <user.special_key>: key("shift-{special_key}")
 press mod <user.modifiers>: key(modifiers)
 # for consistency with dictation mode and explicit arrow keys if you need them.
 press key <user.keys>: key(keys)
+
+#chess <user.letter> <user.number_key>: key("a")
+#chess <user.letter> <user.number_key>: keys("{letter}{number_key}")
+chess <user.chess_keys>: key(chess_keys)

@@ -98,6 +98,10 @@ def keys(m) -> str:
     "A sequence of one or more keys with optional modifiers"
     return " ".join(m.key_list)
 
+@mod.capture(rule="<self.letter> <self.number_key>")
+def chess_keys(m) -> str:
+    "A sequence of one or more keys with optional modifiers"
+    return str(m.letter + ' ' + m.number_key)
 
 @mod.capture(rule="{self.letter}+")
 def letters(m) -> str:
