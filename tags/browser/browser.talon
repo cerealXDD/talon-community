@@ -7,6 +7,12 @@ tag(): user.navigation
 #go page | page focus: browser.focus_page()
 page focus: browser.focus_page()
 
+chess focus:
+    browser.focus_page()
+    key('enter')
+    key('ctrl-a')
+    key('backspace')
+
 #go home: browser.go_home()
 #go private: browser.open_private_window()
 

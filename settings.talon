@@ -244,6 +244,10 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
+
+context menu:
+	key('win-ctrl-v')
+
 #shift enter:
 #	key('shift-enter')
 
@@ -252,10 +256,6 @@ wipe <number_small> right:
 
 #shift gamma:
 #	key('shift-tab')
-
-
-context menu:
-	key('win-ctrl-v')
 
 #force latex and struck
 
