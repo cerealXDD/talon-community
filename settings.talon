@@ -248,6 +248,9 @@ wipe <number_small> right:
 context menu:
 	key('win-ctrl-v')
 
+#chess short castle:
+#	key('oo')
+
 #shift enter:
 #	key('shift-enter')
 
