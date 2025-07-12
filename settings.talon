@@ -205,9 +205,10 @@ orient tiny right:
 
 talon flame:
 	user.insert_formatted("talon", "NOOP")
+
 #cig in:
 #	key('ctrl-c')
-chicken:
+turkey:
 	key('ctrl-c')
 prefix:
 	key('ctrl-\\')
@@ -254,7 +255,7 @@ chess short castle:
 chess long castle:
 	insert('o-o-o')
 
-chess queen:
+chess promotion:
 	insert('=q')
 
 #shift enter:
