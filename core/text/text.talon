@@ -9,13 +9,14 @@
 {user.prose_formatter} <user.prose> {user.phrase_ender}:
     user.insert_formatted(prose, prose_formatter)
     insert(phrase_ender)
-format <user.format_code>+$: user.insert_many(format_code_list)
-format <user.format_code>+ {user.phrase_ender}:
+format code <user.format_code>+$: user.insert_many(format_code_list)
+format code <user.format_code>+ {user.phrase_ender}:
     user.insert_many(format_code_list)
     insert(phrase_ender)
 reformat <user.formatters> that: user.formatters_reformat_selection(user.formatters)
-unit {user.word_formatter} <user.word>: user.insert_formatted(word, word_formatter)
-sentry <user.word>: user.insert_formatted(word, "NOOP")
+format word {user.word_formatter} <user.word>: user.insert_formatted(word, word_formatter)
+#sentry <user.word>: user.insert_formatted(word, "NOOP")
+ribbon <user.word>: user.insert_formatted(word, "NOOP")
 reformat <user.formatters> paste: user.insert_formatted(clip.text(), formatters)
 #recent phrase list: user.toggle_phrase_history()
 #recent phrase close: user.phrase_history_hide()
@@ -27,7 +28,8 @@ reformat <user.formatters> paste: user.insert_formatted(clip.text(), formatters)
 #select last phrase: user.select_last_phrase()
 #before last phrase: user.before_last_phrase()
 #nope that | scratch that: user.clear_last_phrase()
-(undo that | undo last phrase): user.clear_last_phrase()
+#(undo that | undo last phrase): user.clear_last_phrase()
+undo that: user.clear_last_phrase()
 nope that was <user.formatters>: user.formatters_reformat_last(formatters)
 #(abbreviate | abreviate) {user.abbreviation}: "{abbreviation}"
 #<user.formatters> (abbreviate | abreviate) {user.abbreviation}:
