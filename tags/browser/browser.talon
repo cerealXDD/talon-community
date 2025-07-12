@@ -7,7 +7,7 @@ tag(): user.navigation
 #go page | page focus: browser.focus_page()
 page focus: browser.focus_page()
 
-chess focus:
+chess (focus | clear):
     browser.focus_page()
     key('enter')
     key('ctrl-a')
