@@ -5,6 +5,7 @@ tag(): user.find
 tag(): user.navigation
 
 #go page | page focus: browser.focus_page()
+
 page focus: browser.focus_page()
 
 chess (focus | clear):

@@ -123,13 +123,13 @@ unix vim:
 unix git:
 	user.insert_formatted("git", "NOOP")
 
-unix grape:
-	insert('grep')
+#unix grape:
+#	insert('grep')
+#
+#vim grape:
+#	insert('vimgrep')
 
-vim grape:
-	insert('vimgrep')
-
-vim dent:
+vim indent:
 	key('ctrl-v')
 	key('tab')
 
@@ -203,14 +203,17 @@ orient tiny right:
 
 
 
+#talon print:
 talon flame:
 	user.insert_formatted("talon", "NOOP")
+talon sim:
+	user.insert_formatted("sim('')", "NOOP")
 
 #cig in:
 #	key('ctrl-c')
-turkey:
+cig enter:
 	key('ctrl-c')
-prefix:
+cig meta:
 	key('ctrl-\\')
 #leader:
 #	key('\\')
@@ -231,12 +234,12 @@ volume unmute:
 #page up:
 #	key('ctrl-up')
 
-terminal:
-	key('win-1')
-spider web:
-	key('win-2')
-minimize all:
-	key('win-m')
+#terminal:
+#	key('win-1')
+#spider web:
+#	key('win-2')
+#minimize all:
+#	key('win-m')
 
 wipe <number_small> left:
 	key('backspace')

@@ -48,17 +48,17 @@ go page down: edit.page_down()
 #out dent: edit.indent_less()
 
 # Copy
-copy that: edit.copy()
+edit copy: edit.copy()
 
 # Cut
 #cut that: edit.cut()
 
 # Paste
-(pace | paste) that: edit.paste()
-(pace | paste) enter:
+edit (pace | paste): edit.paste()
+edit (pace | paste) enter:
     edit.paste()
     key(enter)
-paste match: edit.paste_match_style()
+edit paste match: edit.paste_match_style()
 
 # Duplication
 #edit clone that: edit.selection_clone()
