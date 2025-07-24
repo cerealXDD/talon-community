@@ -114,13 +114,13 @@ settings():
 #test:
 #	key('shift-a')
 
-unix plex:
+printer unix plex:
 	user.insert_formatted("tmux", "NOOP")
 
-unix vim:
+printer unix vim:
 	user.insert_formatted("vim", "NOOP")
 
-unix git:
+printer unix git:
 	user.insert_formatted("git", "NOOP")
 
 #unix grape:
@@ -204,17 +204,19 @@ orient tiny right:
 
 
 #talon print:
-talon flame:
+printer talon:
 	user.insert_formatted("talon", "NOOP")
-talon sim:
+printer talon sim:
 	user.insert_formatted("sim('')", "NOOP")
 
 #cig in:
 #	key('ctrl-c')
-cig enter:
+mod break:
 	key('ctrl-c')
-cig meta:
+mod meta:
 	key('ctrl-\\')
+mod comment:
+	key('alt-;')
 #leader:
 #	key('\\')
 
