@@ -21,7 +21,8 @@ edit next one: edit.find_next()
 # go word left, go 2 words right
 # go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 #go arrow <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
-go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
+#go <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
+motion <user.navigation_step>+: user.perform_navigation_steps(navigation_step_list)
 
 go line start: edit.line_start()
 go line end: edit.line_end()
