@@ -31,9 +31,9 @@ list: user.letter
 #yank: y
 #zip: z
 
-air: a
+#air: a
 #this gets confused with go up
-#ape: a
+ape: a
 #axe: a
 #alpha: a
 #aero: a
@@ -43,6 +43,7 @@ air: a
 #bat: b
 #bet: b
 #bay: b
+bot: b
 cream: c
 #clap: c
 #calf: c
