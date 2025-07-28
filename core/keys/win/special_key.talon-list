@@ -34,7 +34,8 @@ spacebar: space
 #service: tab
 #gamma: tab
 #complete: tab
-tab complete: tab
+#tab complete: tab
+table: tab
 #indent: tab
 #headlights: tab
 #pizza: tab
