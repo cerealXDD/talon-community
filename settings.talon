@@ -204,7 +204,7 @@ orient tiny right:
 
 
 #talon print:
-printer talon:
+printer talon self:
 	user.insert_formatted("talon", "NOOP")
 printer talon sim:
 	user.insert_formatted("sim('')", "NOOP")

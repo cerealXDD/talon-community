@@ -35,7 +35,9 @@ spacebar: space
 #gamma: tab
 #complete: tab
 #tab complete: tab
-table: tab
+#table: tab
+#muscle: tab
+power: tab
 #indent: tab
 #headlights: tab
 #pizza: tab
@@ -46,4 +48,4 @@ wipe right: delete
 #delete: backspace
 #forward delete: delete
 #menu key: menu
-print screen: printscr
+#print screen: printscr
