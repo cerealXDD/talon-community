@@ -215,7 +215,8 @@ mod break:
 	key('ctrl-c')
 mod meta:
 	key('ctrl-\\')
-mod comment:
+#mod bash hold:
+mod bash comment:
 	key('alt-;')
 #leader:
 #	key('\\')
