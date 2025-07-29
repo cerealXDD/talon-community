@@ -9,5 +9,17 @@
 #repeat part [<number_small> times]:
 #    core.repeat_command(number_small or 1)
 
-^repeat that [<number_small> times]$:
-    core.repeat_partial_phrase(number_small or 1)
+#^repeat [<number_small>]$:
+#    core.repeat_partial_phrase(number_small or 1)
+
+^repeat <user.ordinals>$:
+    core.repeat_partial_phrase(ordinals)
+
+^repeat twice$:
+    core.repeat_partial_phrase(2)
+
+^repeat$:
+    core.repeat_partial_phrase(1)
+
+#^(repeat)+$:
+#    core.repeat_partial_phrase(number_small or 1)
