@@ -3,7 +3,8 @@ list: user.word_formatter
 
 #word: NOOP
 #monocle: NOOP
-capsize: CAPITALIZE_FIRST_WORD
+#capsize: CAPITALIZE_FIRST_WORD
+cap: CAPITALIZE_FIRST_WORD
 upper: ALL_CAPS
 lower: ALL_LOWERCASE
 #trot: TRAILING_SPACE

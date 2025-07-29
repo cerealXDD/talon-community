@@ -2,7 +2,8 @@ list: user.code_formatter
 -
 upper: ALL_CAPS
 lower: ALL_LOWERCASE
-capsize: CAPITALIZE_ALL_WORDS
+#capsize: CAPITALIZE_ALL_WORDS
+cap: CAPITALIZE_ALL_WORDS
 smash: NO_SPACES
 public: PUBLIC_CAMEL_CASE
 private: PRIVATE_CAMEL_CASE
