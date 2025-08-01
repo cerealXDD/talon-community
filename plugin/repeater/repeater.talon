@@ -15,7 +15,8 @@
 ^repeat <user.ordinals>$:
     core.repeat_partial_phrase(ordinals)
 
-^repeat twice$:
+#^repeat (repeat | twice)$:
+^repeat repeat$:
     core.repeat_partial_phrase(2)
 
 ^repeat$:
