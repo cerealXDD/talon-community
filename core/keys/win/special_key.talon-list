@@ -36,7 +36,8 @@ spacebar: space
 #complete: tab
 #tab complete: tab
 #table: tab
-muscle: tab
+#muscle: tab
+backstab: tab
 #power: tab
 #indent: tab
 #headlights: tab
