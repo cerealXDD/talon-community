@@ -17,6 +17,7 @@ reformat <user.formatters> that: user.formatters_reformat_selection(user.formatt
 format word {user.word_formatter} <user.word>: user.insert_formatted(word, word_formatter)
 #sentry <user.word>: user.insert_formatted(word, "NOOP")
 tensor <user.word>: user.insert_formatted(word, "NOOP")
+#unit <user.word>: user.insert_formatted(word, "NOOP")
 reformat <user.formatters> paste: user.insert_formatted(clip.text(), formatters)
 #recent phrase list: user.toggle_phrase_history()
 #recent phrase close: user.phrase_history_hide()

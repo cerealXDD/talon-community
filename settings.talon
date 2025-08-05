@@ -211,15 +211,11 @@ printer talon sim:
 
 #cig in:
 #	key('ctrl-c')
-mod break:
+shell break:
 	key('ctrl-c')
-mod copy:
-	key('ctrl-c')
-mod (pace | paste):
-	key('ctrl-v')
-mod meta:
+shell meta:
 	key('ctrl-\\')
-mod shell:
+shell comment:
 	key('alt-;')
 
 
