@@ -49,13 +49,13 @@ go page down: edit.page_down()
 #out dent: edit.indent_less()
 
 # Copy
-edit copy: edit.copy()
+#edit copy: edit.copy()
 
 # Cut
 #cut that: edit.cut()
 
 # Paste
-edit (pace | paste): edit.paste()
+#edit (pace | paste): edit.paste()
 edit (pace | paste) enter:
     edit.paste()
     key(enter)

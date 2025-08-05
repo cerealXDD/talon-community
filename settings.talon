@@ -213,13 +213,14 @@ printer talon sim:
 #	key('ctrl-c')
 mod break:
 	key('ctrl-c')
+mod copy:
+	key('ctrl-c')
+mod (pace | paste):
+	key('ctrl-v')
 mod meta:
 	key('ctrl-\\')
-#mod bash hold:
-mod bash comment:
+mod shell:
 	key('alt-;')
-#leader:
-#	key('\\')
 
 
 
