@@ -19,6 +19,9 @@
 ^repeat repeat$:
     core.repeat_partial_phrase(2)
 
+^repeat twice$:
+    core.repeat_partial_phrase(2)
+
 ^repeat$:
     core.repeat_partial_phrase(1)
 
