@@ -33,7 +33,8 @@ list: user.letter
 
 #air: a
 #this gets confused with go up
-ape: a
+#ape: a
+aid: a
 #axe: a
 #alpha: a
 #aero: a
@@ -62,13 +63,13 @@ drink: d
 #debt: d
 #ditto: d
 
-#each: e
-egg: e
+each: e
+#egg: e
 #eggs: e
 #exam: e
 #excel: e
-#fine: f
-find: f
+fine: f
+#find: f
 glow: g
 #harp: h
 #hunt: h
@@ -80,7 +81,8 @@ hose: h
 #hint: h
 #ice: i
 #icy: i
-inch: i
+#inch: i
+imp: i
 #ivy: i
 jaw: j
 #jill: j
@@ -145,10 +147,10 @@ well: w
 fox: x
 #yank: y
 yoink: y
-zipper: z
+#zipper: z
 #zipline: z
 #zip: z
-#zap: z
+zap: z
 
 #alpha: a
 #bravo: b
