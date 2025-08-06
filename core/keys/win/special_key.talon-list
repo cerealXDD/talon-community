@@ -6,9 +6,9 @@ os: linux
 #end: end
 #home: home
 #minus: minus
-enter: enter
+#enter: enter
 #feedback: enter
-#linefeed: enter
+linefeed: enter
 #carriage return: enter
 #courage: enter
 #page down: pagedown
