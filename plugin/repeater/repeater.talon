@@ -12,16 +12,16 @@
 #^repeat [<number_small>]$:
 #    core.repeat_partial_phrase(number_small or 1)
 
-^rerun <user.ordinals>$:
+^ditto <user.ordinals>$:
     core.repeat_partial_phrase(ordinals)
 
-^rerun rerun$:
+^ditto ditto$:
     core.repeat_partial_phrase(2)
 
-^rerun twice$:
+^ditto twice$:
     core.repeat_partial_phrase(2)
 
-^rerun$:
+^ditto$:
     core.repeat_partial_phrase(1)
 
 #^(repeat)+$:
