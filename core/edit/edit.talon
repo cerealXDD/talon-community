@@ -85,4 +85,4 @@ edit redo: edit.redo()
 edit save: edit.save()
 edit save all: edit.save_all()
 
-go line middle: user.line_middle()
+#go line middle: user.line_middle()
