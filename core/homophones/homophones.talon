@@ -3,7 +3,7 @@ homophones that: user.homophones_show_auto()
 homophones force <user.homophones_canonical>:
     user.homophones_force_show(homophones_canonical)
 homophones force: user.homophones_force_show_selection()
-homophones hide: user.homophones_hide()
+phones hide: user.homophones_hide()
 homophones word:
     edit.select_word()
     user.homophones_show_selection()
