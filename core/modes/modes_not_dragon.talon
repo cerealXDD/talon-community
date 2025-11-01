@@ -29,7 +29,7 @@ not speech.engine: dragon
 
 ^revival revival revival [<phrase>]$:
 	speech.enable()
-	key('insert')
+#	key('insert')
 
 #^revival revival transit <phrase>:
 #	speech.enable()
@@ -45,13 +45,13 @@ not speech.engine: dragon
 #^nocturnal nocturnal [<phrase>]$: speech.disable()
 #^nocturnal nocturnal$: speech.disable()
 
-twilight twilight twilight [<phrase>]$: speech.disable()
+#twilight twilight twilight [<phrase>]$: speech.disable()
 
 #nocturnal nocturnal nocturnal [<phrase>]$:
 hibernate hibernate hibernate [<phrase>]$:
-	speech.enable()
+#	speech.enable()
 	speech.disable()
-	key('scroll_lock')
+#	key('scroll_lock')
 
 #^talon sleep [<phrase>]$: speech.disable()
 
