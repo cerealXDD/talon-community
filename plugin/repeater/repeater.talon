@@ -21,8 +21,13 @@
 #^ditto twice$:
 #    core.repeat_partial_phrase(2)
 #
-#^ditto$:
+#^ditto once$:
 #    core.repeat_partial_phrase(1)
+
+
+#^ditto first$:
+#
+#^ditto second$:
 
 #^(repeat)+$:
 #    core.repeat_partial_phrase(number_small or 1)
