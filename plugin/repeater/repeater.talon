@@ -15,14 +15,14 @@
 ^ditto <user.ordinals>$:
     core.repeat_partial_phrase(ordinals)
 
-^ditto ditto$:
-    core.repeat_partial_phrase(2)
-
-^ditto twice$:
-    core.repeat_partial_phrase(2)
-
-^ditto$:
-    core.repeat_partial_phrase(1)
+#^ditto ditto$:
+#    core.repeat_partial_phrase(2)
+#
+#^ditto twice$:
+#    core.repeat_partial_phrase(2)
+#
+#^ditto$:
+#    core.repeat_partial_phrase(1)
 
 #^(repeat)+$:
 #    core.repeat_partial_phrase(number_small or 1)
