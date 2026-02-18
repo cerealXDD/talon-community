@@ -252,14 +252,14 @@ wipe <number_small> right:
 context menu:
 	key('win-ctrl-v')
 
-chess short castle:
-	insert('o-o')
-
-chess long castle:
-	insert('o-o-o')
-
-chess promotion:
-	insert('=q')
+#chess short castle:
+#	insert('o-o')
+#
+#chess long castle:
+#	insert('o-o-o')
+#
+#chess promotion:
+#	insert('=q')
 
 #shift enter:
 #	key('shift-enter')
