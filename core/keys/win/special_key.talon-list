@@ -37,9 +37,9 @@ spacebar: space
 #tab complete: tab
 #table: tab
 #muscle: tab
-backstab: tab
+#backstab: tab
 #power: tab
-#indent: tab
+indent: tab
 #headlights: tab
 #pizza: tab
 #dungeon: tab
