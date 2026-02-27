@@ -156,23 +156,23 @@ auto hotkey kill:
 	key('win-ctrl-e')
 
 
-speaker box:
-	key('win-]')
-
-speaker head:
-	key('win-}')
-
-screen on:
-	key('insert')
-
-screen off:
-	#key('pause')
-	key('scroll_lock')
-
-start recording:
-	key('win-ctrl-{')
-stop recording:
-	key('win-{')
+#speaker box:
+#	key('win-]')
+#
+#speaker head:
+#	key('win-}')
+#
+#screen on:
+#	key('insert')
+#
+#screen off:
+#	#key('pause')
+#	key('scroll_lock')
+#
+#start recording:
+#	key('win-ctrl-{')
+#stop recording:
+#	key('win-{')
 
 #cursor will say cut, disable for now
 #mouse also says cut
