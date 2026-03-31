@@ -12,7 +12,8 @@
 #^repeat [<number_small>]$:
 #    core.repeat_partial_phrase(number_small or 1)
 
-^ditto <user.ordinals>$:
+#^ditto <user.ordinals>$:
+^repeat <user.ordinals>$:
     core.repeat_partial_phrase(ordinals)
 
 #^ditto ditto$:
