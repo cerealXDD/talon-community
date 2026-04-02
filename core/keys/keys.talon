@@ -35,6 +35,7 @@ spec <user.special_key>: key(special_key)
 
 <user.modifiers> led <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> cap <user.letter>: key("{modifiers}-shift-{letter}")
+
 shift <user.function_key>: key("shift-{function_key}")
 <user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
 shift <user.special_key>: key("shift-{special_key}")
@@ -47,4 +48,4 @@ press mod <user.modifiers>: key(modifiers)
 # for consistency with dictation mode and explicit arrow keys if you need them.
 press key <user.keys>: key(keys)
 
-chess <user.chess_keys>: key(chess_keys)
+#chess <user.chess_keys>: key(chess_keys)
