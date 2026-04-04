@@ -5,96 +5,97 @@ camera overlay: tracking.control_debug_toggle()
 run calibration: tracking.calibrate()
 #touch:
 #mouse (click | lick):
-(mouse left click | mouse touch):
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click(0)
-    # close the mouse grid if open
-    user.grid_close()
-    # End any open drags
-    # Touch automatically ends left drags so this is for right drags specifically
-    user.mouse_drag_end()
-
-mouse right click:
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click(1)
-    # close the mouse grid if open
-    user.grid_close()
-
-#mouse right enter:
+#(mouse left click | mouse touch):
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    mouse_click(0)
+#    # close the mouse grid if open
+#    user.grid_close()
+#    # End any open drags
+#    # Touch automatically ends left drags so this is for right drags specifically
+#    user.mouse_drag_end()
+#
+#mouse right click:
 #    # close zoom if open
 #    tracking.zoom_cancel()
 #    mouse_click(1)
 #    # close the mouse grid if open
 #    user.grid_close()
-#    key(enter)
-
-mouse middle click:
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click(2)
-    # close the mouse grid
-    user.grid_close()
-
-#mouse core:
-mouse (center | centre):
-	key('win-c')
-
-#see keys.py for modifiers.
-#defaults
-#command
-#control
-#option = alt
-#shift
-#super = windows key
-#<user.modifiers> touch:
-#<user.modifiers> mouse click:
-<user.modifiers> (mouse left click | mouse touch):
-    # close zoom if open
-    tracking.zoom_cancel()
-    key("{modifiers}:down")
-    mouse_click(0)
-    key("{modifiers}:up")
-    # close the mouse grid
-    user.grid_close()
-<user.modifiers> mouse right click:
-    # close zoom if open
-    tracking.zoom_cancel()
-    key("{modifiers}:down")
-    mouse_click(1)
-    key("{modifiers}:up")
-    # close the mouse grid
-    user.grid_close()
-#(dub click | duke):
-mouse double click:
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click()
-    mouse_click()
-    # close the mouse grid
-    user.grid_close()
-#(trip click | trip lick):
-mouse triple click:
-    # close zoom if open
-    tracking.zoom_cancel()
-    mouse_click()
-    mouse_click()
-    mouse_click()
-    # close the mouse grid
-    user.grid_close()
-(mouse left drag | mouse dragon):
+#
+##mouse right enter:
+##    # close zoom if open
+##    tracking.zoom_cancel()
+##    mouse_click(1)
+##    # close the mouse grid if open
+##    user.grid_close()
+##    key(enter)
+#
+#mouse middle click:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    mouse_click(2)
+#    # close the mouse grid
+#    user.grid_close()
+#
+##mouse core:
+#mouse (center | centre):
+#	key('win-c')
+#
+##see keys.py for modifiers.
+##defaults
+##command
+##control
+##option = alt
+##shift
+##super = windows key
+##<user.modifiers> touch:
+##<user.modifiers> mouse click:
+#<user.modifiers> (mouse left click | mouse touch):
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    key("{modifiers}:down")
+#    mouse_click(0)
+#    key("{modifiers}:up")
+#    # close the mouse grid
+#    user.grid_close()
+#<user.modifiers> mouse right click:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    key("{modifiers}:down")
+#    mouse_click(1)
+#    key("{modifiers}:up")
+#    # close the mouse grid
+#    user.grid_close()
+##(dub click | duke):
+#mouse double click:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    mouse_click()
+#    mouse_click()
+#    # close the mouse grid
+#    user.grid_close()
+##(trip click | trip lick):
+#mouse triple click:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    mouse_click()
+#    mouse_click()
+#    mouse_click()
+#    # close the mouse grid
+#    user.grid_close()
+#(mouse left drag | mouse dragon):
+mouse dragon:
     # close zoom if open
     tracking.zoom_cancel()
     user.mouse_drag(0)
     # close the mouse grid
     user.grid_close()
-mouse right drag:
-    # close zoom if open
-    tracking.zoom_cancel()
-    user.mouse_drag(1)
-    # close the mouse grid
-    user.grid_close()
+#mouse right drag:
+#    # close zoom if open
+#    tracking.zoom_cancel()
+#    user.mouse_drag(1)
+#    # close the mouse grid
+#    user.grid_close()
 stop drag: user.mouse_drag_end()
 wheel down: user.mouse_scroll_down()
 wheel down here:

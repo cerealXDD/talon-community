@@ -34,7 +34,7 @@ spec <user.special_key>: key(special_key)
 <user.modifiers> number <user.number_key>: key("{modifiers}-{number_key}")
 
 <user.modifiers> led <user.letter>: key("{modifiers}-{letter}")
-<user.modifiers> cap <user.letter>: key("{modifiers}-shift-{letter}")
+<user.modifiers> capital <user.letter>: key("{modifiers}-shift-{letter}")
 
 #shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
