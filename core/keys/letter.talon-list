@@ -151,8 +151,11 @@ fox: x
 yoink: y
 #zipper: z
 #zipline: z
-#zip: z
-zap: z
+zip: z
+#zeppelin: z
+#gets confused with son
+#zep: z
+#zap: z
 
 #alpha: a
 #bravo: b
