@@ -156,12 +156,12 @@ auto hotkey kill:
 	key('win-ctrl-e')
 
 
-#speaker box:
-#	key('win-]')
-#
-#speaker head:
-#	key('win-}')
-#
+speaker box:
+	key('win-]')
+
+speaker head:
+	key('win-}')
+
 #screen on:
 #	key('insert')
 #
