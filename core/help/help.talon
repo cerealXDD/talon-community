@@ -17,8 +17,9 @@ help help: user.help_search("help")
 #help scope$: user.help_scope_toggle()
 #help snip: user.help_list("user.snippet")
 
-help formatters:
+#help formatters:
+help sentence:
     user.help_formatters(user.get_formatters_words(), false)
 #help re formatters:
-help reformatters:
-    user.help_formatters(user.get_reformatters_words(), true)
+#help reformatters:
+#    user.help_formatters(user.get_reformatters_words(), true)
