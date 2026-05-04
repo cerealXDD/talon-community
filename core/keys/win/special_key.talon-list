@@ -5,44 +5,17 @@ os: linux
 
 #end: end
 #home: home
-#minus: minus
-#enter: enter
-#feedback: enter
-linefeed: enter
-#carriage return: enter
-#courage: enter
+minus: minus
+enter: enter
+#linefeed: enter
 #page down: pagedown
 #page up: pageup
-#escape: escape
-#dessert: escape
-#vapor: escape
-#emu: escape
-#egret: escape
-#regret: escape
-#regrets: escape
-#regress: escape
-#digress: escape
-digest: escape
-#signal escape: escape
-spacebar: space
-#space: space
-#tab: tab
-#handle: tab
-#beacon: tab
-#luminate: tab
-#mozzarella: tab
-#service: tab
-#gamma: tab
-#complete: tab
-#tab complete: tab
-#table: tab
-#muscle: tab
-#backstab: tab
-#power: tab
-indent: tab
-#headlights: tab
-#pizza: tab
-#dungeon: tab
+escape: escape
+#digest: escape
+#spacebar: space
+space: space
+tab: tab
+#indent: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete

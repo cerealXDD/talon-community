@@ -239,7 +239,7 @@ symbol_key_words = {
     #"leader": "\\",
     #"ruler": "\\",
     #"negative": "-",
-    "minus": "-",
+    #"minus": "-",
     #"dash": "-",
     #"equals": "=",
     "equal": "=",
