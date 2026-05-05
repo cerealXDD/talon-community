@@ -5,10 +5,11 @@ open database: key(ctrl-o)
 save database: key(ctrl-s)
 close database: key(ctrl-w)
 lock database: key(ctrl-l)
-quit: key(ctrl-q)
+#quit: key(ctrl-q)
+quit database: key(ctrl-q)
 
 # Entries
-[add] new entry: key(ctrl-n)
+[add] new entry: key(ctrl-i)
 clone entry: key(ctrl-k)
 (view | edit) entry: key(ctrl-e)
 delete entry: key(ctrl-d)
