@@ -22,7 +22,8 @@ sim <user.symbol_key>: key(symbol_key)
 <user.function_key>: key(function_key)
 
 spec <user.special_key>: key(special_key)
-<user.modifiers> spec <user.special_key>: key(special_key)
+#<user.modifiers> spec <user.special_key>: key(special_key)
+<user.modifiers> spec <user.special_key>: key("{modifiers}-{special_key}")
 #<user.keypad_key>: key(keypad_key)
 
 #<user.modifiers> <user.unmodified_key>: key("{modifiers}-{unmodified_key}")
