@@ -6,16 +6,16 @@ os: linux
 #end: end
 #home: home
 minus: minus
-enter: enter
-#linefeed: enter
+#enter: enter
+linefeed: enter
 #page down: pagedown
 #page up: pageup
-escape: escape
-#digest: escape
+#escape: escape
+digest: escape
 #spacebar: space
 space: space
-tab: tab
-#indent: tab
+#tab: tab
+indent: tab
 #insert: insert
 wipe left: backspace
 wipe right: delete
