@@ -34,6 +34,9 @@ spec <user.special_key>: key(special_key)
 #<user.modifiers> <user.arrow_key>: key("{modifiers}-{arrow_key}")
 <user.modifiers> number <user.number_key>: key("{modifiers}-{number_key}")
 
+shift number <user.number_key_spec>: key("shift-{number_key_spec}")
+<user.modifiers> shift number <user.number_key_spec>: key("{modifiers}-shift-{number_key_spec}")
+
 <user.modifiers> led <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> capital <user.letter>: key("{modifiers}-shift-{letter}")
 

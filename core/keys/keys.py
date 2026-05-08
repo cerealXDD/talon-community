@@ -7,6 +7,7 @@ mod.list("letter", desc="The spoken phonetic alphabet")
 mod.list("symbol_key", desc="All symbols from the keyboard")
 mod.list("arrow_key", desc="All arrow keys")
 mod.list("number_key", desc="All number keys")
+mod.list("number_key_spec", desc="All number keys from one to eight")
 mod.list("modifier_key", desc="All modifier keys")
 mod.list("function_key", desc="All function keys")
 mod.list("special_key", desc="All special keys")
@@ -37,6 +38,10 @@ def number_key(m) -> str:
     "One number key"
     return m.number_key
 
+@mod.capture(rule="{self.number_key_spec}")
+def number_key_spec(m) -> str:
+    "One number key"
+    return m.number_key_spec
 
 @mod.capture(rule="{self.keypad_key}")
 def keypad_key(m) -> str:
@@ -163,22 +168,22 @@ symbol_key_words = {
     "surplus": "+",
     "gravel": "`",
     "squiggle": "~",
-    "exclaim": "!",
+    #"exclaim": "!",
     "underscore": "_",
     "left curly": "{",
     "right curly": "}",
     "left angle": "<",
     "right angle": ">",
-    "galaxy": "*",
-    "number": "#",
-    "percentage": "%",
-    "turnip": "^",
-    "seashell": "@",
-    "ampersand": "&",
-    "vertical": "|",
-    "rabbit": '"',
+    #"galaxy": "*",
+    #"number": "#",
+    #"percentage": "%",
+    #"turnip": "^",
+    #"seashell": "@",
+    #"ampersand": "&",
+    #"vertical": "|",
+    #"rabbit": '"',
     # Currencies
-    "dollar": "$",
+    #"dollar": "$",
     #"pound": "£",
 }
 
