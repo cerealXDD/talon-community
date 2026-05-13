@@ -129,9 +129,9 @@ printer unix git:
 #vim grape:
 #	insert('vimgrep')
 
-vim indent:
-	key('ctrl-v')
-	key('tab')
+#vim indent:
+#	key('ctrl-v')
+#	key('tab')
 
 vim line [number] <number>:
 	insert("\%{number}l")
