@@ -12,8 +12,8 @@ linefeed: enter
 #page up: pageup
 #escape: escape
 digest: escape
-#spacebar: space
-space: space
+spacebar: space
+#space: space
 #tab: tab
 indent: tab
 #insert: insert
