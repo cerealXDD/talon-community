@@ -129,10 +129,10 @@ wheel upper here <number_small>:
 wheel upper here:
     user.mouse_move_center_active_window()
     user.mouse_scroll_up_continuous()
-wheel gaze: user.mouse_gaze_scroll()
-wheel gaze here:
-    user.mouse_move_center_active_window()
-    user.mouse_gaze_scroll()
+#wheel gaze: user.mouse_gaze_scroll()
+#wheel gaze here:
+#    user.mouse_move_center_active_window()
+#    user.mouse_gaze_scroll()
 wheel left: user.mouse_scroll_left()
 wheel left here:
     user.mouse_move_center_active_window()
