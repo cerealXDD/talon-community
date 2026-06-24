@@ -17,7 +17,7 @@ chess (focus | clear):
 #go home: browser.go_home()
 #go private: browser.open_private_window()
 
-bookmark it: browser.bookmark()
+#bookmark it: browser.bookmark()
 #bookmark tabs: browser.bookmark_tabs()
 #(refresh | reload) it soft: browser.reload()
 page reload soft: browser.reload()
