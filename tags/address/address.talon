@@ -7,4 +7,5 @@ tag: user.address
 #    user.address_copy_address()
 #address bar | go address | go url: user.address_focus()
 #address bar: user.address_focus()
-address focus: user.address_focus()
+#address focus: user.address_focus()
+go address bar: user.address_focus()
