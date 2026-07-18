@@ -13,8 +13,47 @@
 #    core.repeat_partial_phrase(number_small or 1)
 
 #^ditto <user.ordinals>$:
-^repeat <user.ordinals>$:
-    core.repeat_partial_phrase(ordinals)
+#^repeat <user.ordinals>$:
+#    core.repeat_partial_phrase(ordinals)
+
+^repeat first$:
+    core.repeat_partial_phrase(1)
+
+^repeat second$:
+    core.repeat_partial_phrase(2)
+
+^repeat third$:
+    core.repeat_partial_phrase(3)
+
+^repeat fifth$:
+    core.repeat_partial_phrase(5)
+
+^repeat tenth$:
+    core.repeat_partial_phrase(10)
+
+^repeat twentieth$:
+    core.repeat_partial_phrase(20)
+
+^repeat thirtieth$:
+    core.repeat_partial_phrase(30)
+
+^repeat fortieth$:
+    core.repeat_partial_phrase(40)
+
+^repeat fiftieth$:
+    core.repeat_partial_phrase(50)
+
+^repeat sixtieth$:
+    core.repeat_partial_phrase(60)
+
+^repeat seventieth$:
+    core.repeat_partial_phrase(70)
+
+^repeat eightieth$:
+    core.repeat_partial_phrase(80)
+
+^repeat ninetieth$:
+    core.repeat_partial_phrase(90)
 
 #^ditto ditto$:
 #    core.repeat_partial_phrase(2)
