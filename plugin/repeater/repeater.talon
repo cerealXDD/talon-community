@@ -28,31 +28,31 @@
 ^repeat fifth$:
     core.repeat_partial_phrase(5)
 
-^repeat tenth$:
+^repeat multi tenth$:
     core.repeat_partial_phrase(10)
 
-^repeat twentieth$:
+^repeat multi twentieth$:
     core.repeat_partial_phrase(20)
 
-^repeat thirtieth$:
+^repeat multi thirtieth$:
     core.repeat_partial_phrase(30)
 
-^repeat fortieth$:
+^repeat multi fortieth$:
     core.repeat_partial_phrase(40)
 
-^repeat fiftieth$:
+^repeat multi fiftieth$:
     core.repeat_partial_phrase(50)
 
-^repeat sixtieth$:
+^repeat multi sixtieth$:
     core.repeat_partial_phrase(60)
 
-^repeat seventieth$:
+^repeat multi seventieth$:
     core.repeat_partial_phrase(70)
 
-^repeat eightieth$:
+^repeat multi eightieth$:
     core.repeat_partial_phrase(80)
 
-^repeat ninetieth$:
+^repeat multi ninetieth$:
     core.repeat_partial_phrase(90)
 
 #^ditto ditto$:
