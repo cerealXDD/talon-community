@@ -6,9 +6,9 @@
 #    user.add_phrase_to_history(text)
 #    insert("{text}{phrase_ender}")
 #{user.prose_formatter} <user.prose>$: user.insert_formatted(prose, prose_formatter)
-{user.prose_formatter} <user.prose> {user.phrase_ender}:
-    user.insert_formatted(prose, prose_formatter)
-    insert(phrase_ender)
+#{user.prose_formatter} <user.prose> {user.phrase_ender}:
+#    user.insert_formatted(prose, prose_formatter)
+#    insert(phrase_ender)
 #format multi <user.format_code>+$: user.insert_many(format_code_list)
 format multi <user.format_code>+ {user.phrase_ender}:
     user.insert_many(format_code_list)
@@ -18,7 +18,7 @@ format unit {user.word_formatter} <user.word>: user.insert_formatted(word, word_
 #sentry <user.word>: user.insert_formatted(word, "NOOP")
 #tensor <user.word>: user.insert_formatted(word, "NOOP")
 #unity <user.word>: user.insert_formatted(word, "NOOP")
-unit vector <user.word>: user.insert_formatted(word, "NOOP")
+#unit vector <user.word>: user.insert_formatted(word, "NOOP")
 #unit <user.word>: user.insert_formatted(word, "NOOP")
 #unit <user.word>: user.insert_formatted(word, "NOOP")
 reformat <user.formatters> paste: user.insert_formatted(clip.text(), formatters)
