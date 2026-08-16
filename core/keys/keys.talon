@@ -14,7 +14,8 @@ led <user.letters>:
 #upper:
 
 #upper <user.letters>:
-capital <user.letters>:
+#capital <user.letters>:
+capsize <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
 sim <user.symbol_key>: key(symbol_key)

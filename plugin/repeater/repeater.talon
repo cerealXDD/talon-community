@@ -16,16 +16,18 @@
 #^repeat <user.ordinals>$:
 #    core.repeat_partial_phrase(ordinals)
 
-^repeat first$:
+#^repeat first$:
+#^repeat once$:
+^repeat onus$:
     core.repeat_partial_phrase(1)
 
-^repeat second$:
+^repeat twice$:
     core.repeat_partial_phrase(2)
 
-^repeat third$:
+^repeat trip$:
     core.repeat_partial_phrase(3)
 
-^repeat fifth$:
+^repeat five$:
     core.repeat_partial_phrase(5)
 
 ^repeat multi tenth$:

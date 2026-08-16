@@ -9,7 +9,7 @@
 {user.prose_formatter} <user.prose> {user.phrase_ender}:
     user.insert_formatted(prose, prose_formatter)
     insert(phrase_ender)
-format multi <user.format_code>+$: user.insert_many(format_code_list)
+#format multi <user.format_code>+$: user.insert_many(format_code_list)
 format multi <user.format_code>+ {user.phrase_ender}:
     user.insert_many(format_code_list)
     insert(phrase_ender)
