@@ -2,7 +2,8 @@ list: user.word_formatter
 -
 
 #word: NOOP
-nope: NOOP
+#nope: NOOP
+void: NOOP
 #monocle: NOOP
 capsize: CAPITALIZE_FIRST_WORD
 #cap: CAPITALIZE_FIRST_WORD

@@ -1,6 +1,7 @@
 list: user.code_formatter
 -
-nope: NOOP
+#nope: NOOP
+void: NOOP
 upper: ALL_CAPS
 lower: ALL_LOWERCASE
 capsize: CAPITALIZE_ALL_WORDS
