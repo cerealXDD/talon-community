@@ -9,17 +9,17 @@ list: user.delimiter_pair
 # round: ( )
 # pad: space space
 
-twin paren: ( )
-twin square: [ ]
-twin angle: < >
-twin curly: { }
-twin apostrophe: "' '"
-twin bunny: '" "'
-twin grave: ` `
+twin theses: ( )
+twin quart: [ ]
+twin sharp: < >
+twin front: { }
+twin onus: "' '"
+twin twice: '" "'
+twin gravel: ` `
 twin percent: % %
-twin spacebar: space space
+twin pace: space space
 
-twin escaped bunny rabbit: '\\" \\"'
-twin escaped apostrophe:  "\\' \\'"
-twin escaped paren: \( \)
-twin escaped square: \[ \]
+twin escaped twice: '\\" \\"'
+twin escaped onus:  "\\' \\'"
+twin escaped theses: \( \)
+twin escaped quart: \[ \]
