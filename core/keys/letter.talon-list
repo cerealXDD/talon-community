@@ -64,7 +64,8 @@ cloth: c
 #corn: c
 #drum: d
 #draco: d
-drink: d
+#drink: d
+dupe: d
 #drake: d
 #dance: d
 #day: d
@@ -156,7 +157,8 @@ quilt: q
 #quirk: q
 #red: r
 #race: r
-rube: r
+#rube: r
+rink: r
 #sun: s
 #sand: s
 #sash: s
