@@ -51,7 +51,8 @@ ark: a
 boast: b
 #bought: b
 #cream: c
-clock: c
+#clock: c
+cloth: c
 #clap: c
 #calf: c
 #cute: c
@@ -76,7 +77,8 @@ each: e
 #exam: e
 #excel: e
 #fine: f
-fined: f
+#fined: f
+fridge: f
 #glow: g
 gist: g
 #gaunt: g
@@ -107,12 +109,12 @@ jolt: j
 #ketchup: k
 #steak: k
 #kite: k
-kit: k
+#kit: k
 #kilo: k
 #king: k
 #kin: k
 #kingdom: k
-#kitsch: k
+kitsch: k
 #kebab: k
 #cheesesteak: k
 #cheesecake: k
@@ -167,6 +169,7 @@ vest: v
 #whale: w
 #well: w
 waist: w
+#whiff: w
 #whisk: w
 #wonton: w
 #fox: x

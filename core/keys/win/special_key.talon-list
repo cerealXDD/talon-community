@@ -14,7 +14,9 @@ feet: enter
 escape: escape
 #digest: escape
 #spacebar: space
-hit: space
+#space: space
+pace: space
+#hit: space
 tab: tab
 #indent: tab
 #insert: insert
