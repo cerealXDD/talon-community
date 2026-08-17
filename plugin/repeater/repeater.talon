@@ -27,7 +27,7 @@
 ^repeat trip$:
     core.repeat_partial_phrase(3)
 
-^repeat five$:
+^repeat fifth$:
     core.repeat_partial_phrase(5)
 
 ^repeat multi tenth$:
