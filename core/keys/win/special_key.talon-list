@@ -8,7 +8,7 @@ os: linux
 minus: minus
 #enter: enter
 #linefeed: enter
-feed: enter
+feet: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
