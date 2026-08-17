@@ -161,8 +161,8 @@ auto hotkey kill:
 speaker box:
 	key('win-]')
 
-speaker head:
-	key('win-}')
+#speaker head:
+#	key('win-}')
 
 #screen on:
 #	key('insert')

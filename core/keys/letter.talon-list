@@ -76,8 +76,8 @@ each: e
 #fine: f
 fined: f
 #glow: g
-#gist: g
-gaunt: g
+gist: g
+#gaunt: g
 harp: h
 #hunt: h
 #him: h
@@ -89,7 +89,8 @@ harp: h
 #ice: i
 #icy: i
 #inch: i
-imp: i
+#imp: i
+impish: i
 #ivy: i
 #jaw: j
 jolt: j
