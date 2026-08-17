@@ -7,13 +7,14 @@ os: linux
 #home: home
 minus: minus
 #enter: enter
-linefeed: enter
+#linefeed: enter
+feed: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
 #digest: escape
-spacebar: space
-#space: space
+#spacebar: space
+hit: space
 tab: tab
 #indent: tab
 #insert: insert
