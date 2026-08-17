@@ -158,6 +158,7 @@ symbol_key_words = {
     "question": "?",
     #"apostrophe": "'",
     "onus": "'",
+    "twice": '"',
     #"left square": "[",
     #"right square": "]",
     "left squat": "[",
