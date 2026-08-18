@@ -27,7 +27,8 @@ not speech.engine: dragon
 #^awaken awaken [awaken]+$: speech.enable()
 #^revival revival$: speech.enable()
 
-^revival revival revival [<phrase>]$:
+#^revival revival revival [<phrase>]$:
+^energize energize energize [<phrase>]$:
 	speech.enable()
 #	key('insert')
 
