@@ -10,7 +10,7 @@ list: user.delimiter_pair
 # pad: space space
 
 twin theses: ( )
-twin quart: [ ]
+twin quartz: [ ]
 twin sharp: < >
 twin front: { }
 twin onus: "' '"
@@ -22,4 +22,4 @@ twin pace: space space
 twin escaped twice: '\\" \\"'
 twin escaped onus:  "\\' \\'"
 twin escaped theses: \( \)
-twin escaped quart: \[ \]
+twin escaped quartz: \[ \]
