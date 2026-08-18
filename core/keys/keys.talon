@@ -25,7 +25,7 @@ sim <user.symbol_key>: key(symbol_key)
 #spec <user.special_key>: key(special_key)
 bog <user.special_key>: key(special_key)
 #<user.modifiers> spec <user.special_key>: key(special_key)
-<user.modifiers> spec <user.special_key>: key("{modifiers}-{special_key}")
+<user.modifiers> bog <user.special_key>: key("{modifiers}-{special_key}")
 #<user.keypad_key>: key(keypad_key)
 
 #<user.modifiers> <user.unmodified_key>: key("{modifiers}-{unmodified_key}")
@@ -44,8 +44,8 @@ raise number <user.number_key_spec>: key("shift-{number_key_spec}")
 
 #shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
-shift spec <user.special_key>: key("shift-{special_key}")
-<user.modifiers> shift spec <user.special_key>: key("{modifiers}-shift-{special_key}")
+shift bog <user.special_key>: key("shift-{special_key}")
+<user.modifiers> shift bog <user.special_key>: key("{modifiers}-shift-{special_key}")
 
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
 
