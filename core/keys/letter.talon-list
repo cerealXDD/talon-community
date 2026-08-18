@@ -85,8 +85,9 @@ flint: f
 #fridge: f
 #glow: g
 #gist: g
-guide: g
-#gaunt: g
+#guide: g
+#gait: g
+gaunt: g
 #harp: h
 horse: h
 #hunt: h
@@ -103,8 +104,8 @@ horse: h
 impish: i
 #ivy: i
 #jaw: j
-#jolt: j
-joint: j
+jolt: j
+#joint: j
 #jill: j
 #juice: j
 #jinx: j
@@ -151,8 +152,8 @@ norm: n
 orb: o
 #pan: p
 #play: p
-#pants: p
-paint: p
+pants: p
+#paint: p
 #cute: q
 #quote: q
 #quit: q
@@ -173,7 +174,8 @@ ridge: r
 #sun: s
 #sand: s
 #sash: s
-sass: s
+#sass: s
+socks: s
 trap: t
 #teach: t
 #urn: u
