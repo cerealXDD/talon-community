@@ -72,7 +72,8 @@ dupe: d
 #debt: d
 #ditto: d
 
-each: e
+#each: e
+evict: e
 #earth: e
 #east: e
 #egg: e
@@ -144,7 +145,8 @@ moose: m
 #near: n
 #north: n
 #norse: n
-norm: n
+#norm: n
+nape: n
 #naught: n
 #noir: n
 #odd: o
@@ -171,7 +173,8 @@ quilt: q
 #race: r
 #rube: r
 #rink: r
-ridge: r
+#ridge: r
+reach: r
 #sun: s
 #sand: s
 #sash: s

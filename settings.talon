@@ -243,13 +243,16 @@ volume unmute:
 #minimize all:
 #	key('win-m')
 
-wipe <number_small> left:
-	key('backspace')
-	repeat(number_small - 1)
-wipe <number_small> right:
-	key('delete')
-	repeat(number_small - 1)
-
+#wipe <number_small> left:
+#	key('backspace')
+#	repeat(number_small - 1)
+#wipe <number_small> right:
+#	key('delete')
+#	repeat(number_small - 1)
+#
+#wipe one left:
+#
+#wipe two left:
 
 context menu:
 	key('win-ctrl-v')
