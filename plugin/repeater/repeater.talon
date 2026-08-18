@@ -30,7 +30,7 @@
 ^repeat fifth$:
     core.repeat_partial_phrase(5)
 
-^repeat multi tenth$:
+^repeat decade$:
     core.repeat_partial_phrase(10)
 
 ^repeat multi twentieth$:
