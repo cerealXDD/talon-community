@@ -9,7 +9,8 @@
 #focus last: user.switcher_focus_last()
 #running list: user.switcher_toggle_running()
 #running close: user.switcher_hide_running()
-launch <user.launch_applications>: user.switcher_launch(launch_applications)
+
+#launch <user.launch_applications>: user.switcher_launch(launch_applications)
 
 #snap <user.window_snap_position>: user.snap_window(window_snap_position)
 #snap next [screen]: user.move_window_next_screen()
