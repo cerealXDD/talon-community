@@ -197,7 +197,8 @@ torque: t
 #use: u
 #user: u
 usurp: u
-vest: v
+#vest: v
+vids: v
 #whale: w
 #well: w
 waist: w
@@ -215,7 +216,8 @@ yelp: y
 #zipper: z
 #zipline: z
 #zip: z
-zilch: z
+zest: z
+#zilch: z
 #zeppelin: z
 #gets confused with son
 #zep: z
