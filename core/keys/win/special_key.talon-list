@@ -8,16 +8,19 @@ os: linux
 minus: minus
 #enter: enter
 #linefeed: enter
-feet: enter
+#feet: enter
+dart: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
 #digest: escape
 #spacebar: space
 #space: space
-pace: space
+#pace: space
+block: space
 #hit: space
-tab: tab
+#tab: tab
+tap: tab
 #indent: tab
 #insert: insert
 wipe left: backspace

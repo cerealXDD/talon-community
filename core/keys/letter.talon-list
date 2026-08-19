@@ -89,7 +89,8 @@ flint: f
 #guide: g
 #gait: g
 gaunt: g
-harp: h
+hulk: h
+#harp: h
 #horse: h
 #hunt: h
 #him: h
@@ -178,8 +179,8 @@ quilt: q
 #rube: r
 #rink: r
 #ridge: r
-#reach: r
-ramp: r
+reach: r
+#ramp: r
 #sun: s
 #sand: s
 #sash: s
@@ -209,7 +210,7 @@ xbox: x
 #yoink: y
 #yeast: y
 #yoke: y
-yak: y
+yelp: y
 #zipper: z
 #zipline: z
 #zip: z
