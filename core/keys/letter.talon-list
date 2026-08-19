@@ -186,7 +186,8 @@ reach: r
 #sand: s
 #sash: s
 #sass: s
-socks: s
+#socks: s
+sock: s
 #trap: t
 torque: t
 #teach: t
