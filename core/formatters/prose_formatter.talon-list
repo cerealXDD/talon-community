@@ -4,6 +4,6 @@ list: user.prose_formatter
 #speak: NOOP
 #sentence: CAPITALIZE_FIRST_WORD
 #sentence: NOOP
-multi vector: NOOP
+multi void: NOOP
 #multi: NOOP
 #title: CAPITALIZE_ALL_WORDS

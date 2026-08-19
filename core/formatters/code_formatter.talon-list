@@ -1,7 +1,7 @@
 list: user.code_formatter
 -
 #nope: NOOP
-void: NOOP
+#void: NOOP
 escape: BACKSLASH_SEPARATED
 upper: ALL_CAPS
 lower: ALL_LOWERCASE
