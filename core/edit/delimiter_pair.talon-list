@@ -13,13 +13,13 @@ twin theses: ( )
 twin quartz: [ ]
 twin sharp: < >
 twin front: { }
-twin onus: "' '"
-twin twice: '" "'
-twin gravel: ` `
+twin trough: "' '"
+twin quote: '" "'
+twin tickle: ` `
 twin percent: % %
-twin pace: space space
+twin block: space space
 
-twin escaped twice: '\\" \\"'
-twin escaped onus:  "\\' \\'"
+twin escaped quote: '\\" \\"'
+twin escaped trough:  "\\' \\'"
 twin escaped theses: \( \)
 twin escaped quartz: \[ \]
