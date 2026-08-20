@@ -8,7 +8,7 @@
 #letter <user.letters>:
 #let <user.letters>:
 #lead <user.letters>:
-led <user.letters>:
+let <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
@@ -39,7 +39,7 @@ peck <user.special_key>: key(special_key)
 raise number <user.number_key_spec>: key("shift-{number_key_spec}")
 #<user.modifiers> shift number <user.number_key_spec>: key("{modifiers}-shift-{number_key_spec}")
 
-<user.modifiers> led <user.letter>: key("{modifiers}-{letter}")
+<user.modifiers> let <user.letter>: key("{modifiers}-{letter}")
 <user.modifiers> capital <user.letter>: key("{modifiers}-shift-{letter}")
 
 #shift <user.function_key>: key("shift-{function_key}")

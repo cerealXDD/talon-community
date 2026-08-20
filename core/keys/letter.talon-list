@@ -218,7 +218,8 @@ xbox: x
 #yeast: y
 #yoke: y
 #yelp: y
-yaks: y
+#yaks: y
+yields: y
 #zipper: z
 #zipline: z
 #zip: z

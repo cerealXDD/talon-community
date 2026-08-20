@@ -14,8 +14,8 @@
 multi <user.format_code>+ {user.phrase_ender}:
     user.insert_many(format_code_list)
     insert(phrase_ender)
-unit {user.word_formatter} <user.word>: user.insert_formatted(word, word_formatter)
-unit void <user.word>: user.insert_formatted(word, "NOOP")
+unit {user.word_formatter} <user.word> over: user.insert_formatted(word, word_formatter)
+unit void <user.word> over: user.insert_formatted(word, "NOOP")
 
 reformat <user.formatters> that: user.formatters_reformat_selection(user.formatters)
 #sentry <user.word>: user.insert_formatted(word, "NOOP")
