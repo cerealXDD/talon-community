@@ -165,7 +165,7 @@ symbol_key_words = {
     "right squat": "]",
     #"left parent": "(",
     #"right parent": ")",
-    "backlash": "\\",
+    "backslash": "\\",
     "equals": "=",
     "surplus": "+",
     #"gravel": "`",
