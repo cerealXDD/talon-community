@@ -199,7 +199,8 @@ torque: t
 #user: u
 usurp: u
 #vest: v
-vids: v
+#vids: v
+vacant: v
 #whale: w
 #well: w
 waist: w
