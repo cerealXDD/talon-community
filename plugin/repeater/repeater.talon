@@ -17,20 +17,21 @@
 #    core.repeat_partial_phrase(ordinals)
 
 #^repeat first$:
-#^repeat once$:
-^repeat onus$:
+^repeat once$:
+#^repeat onus$:
     core.repeat_partial_phrase(1)
 
 ^repeat twice$:
     core.repeat_partial_phrase(2)
 
-^repeat trip$:
-    core.repeat_partial_phrase(3)
+#^repeat trip$:
+#    core.repeat_partial_phrase(3)
 
 ^repeat fifth$:
     core.repeat_partial_phrase(5)
 
-^repeat decade$:
+#^repeat decade$:
+^repeat deck$:
     core.repeat_partial_phrase(10)
 
 ^repeat multi twentieth$:
