@@ -160,7 +160,8 @@ nape: n
 opus: o
 #pan: p
 #play: p
-pants: p
+#pants: p
+pierce: p
 #paint: p
 #cute: q
 #quote: q
@@ -215,7 +216,8 @@ xbox: x
 #yoink: y
 #yeast: y
 #yoke: y
-yelp: y
+#yelp: y
+yaks: y
 #zipper: z
 #zipline: z
 #zip: z
