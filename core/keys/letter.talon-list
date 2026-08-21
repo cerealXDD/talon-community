@@ -83,13 +83,15 @@ evict: e
 #excel: e
 #fine: f
 #fined: f
-flint: f
+#flint: f
 #fridge: f
+flank: f
 #glow: g
 #gist: g
 #guide: g
 #gait: g
-gaunt: g
+#gaunt: g
+glint: g
 #hulk: h
 #harp: h
 hubris: h
