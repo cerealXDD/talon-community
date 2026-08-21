@@ -17,45 +17,45 @@
 #    core.repeat_partial_phrase(ordinals)
 
 #^repeat first$:
-^repeat once$:
+^recurse once$:
 #^repeat onus$:
     core.repeat_partial_phrase(1)
 
-^repeat twice$:
+^recurse twice$:
     core.repeat_partial_phrase(2)
 
 #^repeat trip$:
 #    core.repeat_partial_phrase(3)
 
-^repeat fifth$:
+^recurse fifth$:
     core.repeat_partial_phrase(5)
 
 #^repeat decade$:
-^repeat deck$:
+^recurse deck$:
     core.repeat_partial_phrase(10)
 
-^repeat multi twentieth$:
+^recurse multi twentieth$:
     core.repeat_partial_phrase(20)
 
-^repeat multi thirtieth$:
+^recurse multi thirtieth$:
     core.repeat_partial_phrase(30)
 
-^repeat multi fortieth$:
+^recurse multi fortieth$:
     core.repeat_partial_phrase(40)
 
-^repeat multi fiftieth$:
+^recurse multi fiftieth$:
     core.repeat_partial_phrase(50)
 
-^repeat multi sixtieth$:
+^recurse multi sixtieth$:
     core.repeat_partial_phrase(60)
 
-^repeat multi seventieth$:
+^recurse multi seventieth$:
     core.repeat_partial_phrase(70)
 
-^repeat multi eightieth$:
+^recurse multi eightieth$:
     core.repeat_partial_phrase(80)
 
-^repeat multi ninetieth$:
+^recurse multi ninetieth$:
     core.repeat_partial_phrase(90)
 
 #^ditto ditto$:
