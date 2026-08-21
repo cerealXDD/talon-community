@@ -121,8 +121,8 @@ jolt: j
 #ketchup: k
 #steak: k
 #kite: k
-#kayak: k
-kiosk: k
+kayak: k
+#kiosk: k
 #kit: k
 #kilo: k
 #king: k
@@ -139,7 +139,8 @@ kiosk: k
 #look: l
 #link: l
 #lynx: l
-latch: l
+#latch: l
+lamp: l
 #made: m
 #map: m
 #mash: m
