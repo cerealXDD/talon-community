@@ -17,8 +17,9 @@
 #    core.repeat_partial_phrase(ordinals)
 
 #^repeat first$:
-^recurse repeat$:
+#^recurse repeat$:
 #^repeat onus$:
+^recurse peat$:
     core.repeat_partial_phrase(1)
 
 ^recurse twice$:
@@ -27,7 +28,8 @@
 #^repeat trip$:
 #    core.repeat_partial_phrase(3)
 
-^recurse fifth$:
+#^recurse fifth$:
+^recurse faith$:
     core.repeat_partial_phrase(5)
 
 #^repeat decade$:

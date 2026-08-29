@@ -246,6 +246,7 @@ volume unmute:
 wipe <number_small> left:
 	key('backspace')
 	repeat(number_small - 1)
+
 wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
