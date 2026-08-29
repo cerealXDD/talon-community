@@ -44,8 +44,8 @@ raise <user.number_key_spec>: key("shift-{number_key_spec}")
 
 #shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
-pound <user.special_key>: key("shift-{special_key}")
-<user.modifiers> pound <user.special_key>: key("{modifiers}-shift-{special_key}")
+strike <user.special_key>: key("shift-{special_key}")
+<user.modifiers> strike <user.special_key>: key("{modifiers}-shift-{special_key}")
 
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
 
