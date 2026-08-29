@@ -9,17 +9,17 @@ list: user.delimiter_pair
 # round: ( )
 # pad: space space
 
-twin theses: ( )
-twin quartz: [ ]
+twin thesis: ( )
+twin block: [ ]
 twin sharp: < >
-twin front: { }
+twin nose: { }
 twin trough: "' '"
 twin quote: '" "'
-twin tickle: ` `
+twin critical: ` `
 twin percent: % %
-twin block: space space
+#twin bark: space space
 
 twin escaped quote: '\\" \\"'
 twin escaped trough:  "\\' \\'"
-twin escaped theses: \( \)
-twin escaped quartz: \[ \]
+twin escaped thesis: \( \)
+twin escaped block: \[ \]

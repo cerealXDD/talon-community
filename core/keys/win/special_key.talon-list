@@ -9,7 +9,8 @@ minus: minus
 #enter: enter
 #linefeed: enter
 #feet: enter
-dart: enter
+#dart: enter
+rush: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
@@ -17,7 +18,8 @@ escape: escape
 #spacebar: space
 #space: space
 #pace: space
-block: space
+#block: space
+bark: space
 #hit: space
 #tab: tab
 tap: tab
