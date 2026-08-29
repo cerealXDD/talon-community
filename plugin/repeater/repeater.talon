@@ -17,7 +17,7 @@
 #    core.repeat_partial_phrase(ordinals)
 
 #^repeat first$:
-^recurse once$:
+^recurse repeat$:
 #^repeat onus$:
     core.repeat_partial_phrase(1)
 
