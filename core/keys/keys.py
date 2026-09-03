@@ -174,7 +174,7 @@ symbol_key_words = {
     "squiggle": "~",
     #"wave": "~",
     #"exclaim": "!",
-    "underscore": "_",
+    #"underscore": "_",
     "left nose": "{",
     "right nose": "}",
     "left sharp": "<",
