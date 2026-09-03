@@ -9,17 +9,17 @@ list: user.delimiter_pair
 # round: ( )
 # pad: space space
 
-twin thesis: ( )
-twin block: [ ]
-twin sharp: < >
-twin nose: { }
-twin trough: "' '"
-twin quote: '" "'
-twin critical: ` `
-twin percent: % %
-#twin bark: space space
+plurals thesis: ( )
+plurals block: [ ]
+plurals sharp: < >
+plurals nose: { }
+plurals trough: "' '"
+plurals quote: '" "'
+plurals critical: ` `
+plurals percent: % %
+#plurals bark: space space
 
-twin escaped quote: '\\" \\"'
-twin escaped trough:  "\\' \\'"
-twin escaped thesis: \( \)
-twin escaped block: \[ \]
+plurals escaped quote: '\\" \\"'
+plurals escaped trough:  "\\' \\'"
+plurals escaped thesis: \( \)
+plurals escaped block: \[ \]

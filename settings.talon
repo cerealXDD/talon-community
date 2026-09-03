@@ -243,6 +243,10 @@ volume unmute:
 #minimize all:
 #	key('win-m')
 
+delete plurals:
+	key('backspace')
+	key('delete')
+
 wipe <number_small> left:
 	key('backspace')
 	repeat(number_small - 1)
