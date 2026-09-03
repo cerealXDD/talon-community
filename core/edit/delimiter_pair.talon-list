@@ -12,7 +12,7 @@ list: user.delimiter_pair
 plurals thesis: ( )
 plurals block: [ ]
 plurals sharp: < >
-plurals nose: { }
+plurals visage: { }
 plurals trough: "' '"
 plurals quote: '" "'
 plurals critical: ` `
