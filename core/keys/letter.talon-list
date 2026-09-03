@@ -86,8 +86,8 @@ evict: e
 #flint: f
 #fridge: f
 #flank: f
-#frank: f
-fierce: f
+frank: f
+#fierce: f
 #glow: g
 #gist: g
 #guide: g
@@ -173,8 +173,8 @@ onset: o
 #pan: p
 #play: p
 #pants: p
-#pierce: p
-prank: p
+pierce: p
+#prank: p
 #paint: p
 #cute: q
 #quote: q
