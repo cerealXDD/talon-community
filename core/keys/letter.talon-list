@@ -86,7 +86,8 @@ evict: e
 #flint: f
 #fridge: f
 #flank: f
-frank: f
+#frank: f
+flank: f
 #fierce: f
 #glow: g
 #gist: g
