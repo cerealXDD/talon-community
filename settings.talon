@@ -144,11 +144,18 @@ vim line top:
 peridot dot:
 	insert('..')
 
-key(f9):
+key(f7):
     sound.set_microphone("None")
 
-key(f10):
+key(f8):
     sound.set_microphone("System Default")
+
+key(f5):
+	speech.disable()
+
+key(f6):
+	speech.enable()
+
 #key(f11): speech.toggle()
 wifi reconnect:
 	key('f11')
