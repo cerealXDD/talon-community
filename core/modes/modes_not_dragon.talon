@@ -53,6 +53,13 @@ not speech.engine: dragon
 hibernate hibernate hibernate [<phrase>]$:
 #	speech.enable()
 	speech.disable()
+
+key(f7):
+	speech.disable()
+
+key(f8):
+	speech.enable()
+
 #	key('scroll_lock')
 
 #^talon sleep [<phrase>]$: speech.disable()
