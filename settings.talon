@@ -185,31 +185,35 @@ speaker box:
 
 #cursor will say cut, disable for now
 #mouse also says cut
-orient left:
-	key('f1')
 
-orient down:
-	key('f2')
+orient north:
+	key(keypad_8)
 
-orient up:
-	key('f3')
+orient east:
+	key(keypad_6)
 
-orient right:
-	key('f4')
+orient south:
+	key(keypad_2)
+
+orient west:
+	key(keypad_4)
 
 
-orient tiny left:
-	key('ctrl-f1')
+orient tiny north:
+	key(alt-keypad_8)
 
-orient tiny down:
-	key('ctrl-f2')
+orient tiny east:
+	key(alt-keypad_6)
 
-orient tiny up:
-	key('ctrl-f3')
+orient tiny south:
+	key(alt-keypad_2)
 
-orient tiny right:
-	key('ctrl-f4')
+orient tiny west:
+	key(alt-keypad_4)
 
+
+orient northeast:
+	key(keypad_7)
 
 
 #talon print:
