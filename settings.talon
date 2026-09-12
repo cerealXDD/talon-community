@@ -158,7 +158,7 @@ key(keypad_multiply):
 
 #key(f11): speech.toggle()
 wifi reconnect:
-	key('f11')
+	key(keypad_enter)
 
 auto hotkey kill:
 #hotkey kill:
@@ -213,8 +213,29 @@ orient tiny west:
 
 
 orient northeast:
+	key(keypad_9)
+
+orient southeast:
+	key(keypad_3)
+
+orient southwest:
+	key(keypad_1)
+
+orient northwest:
 	key(keypad_7)
 
+
+orient tiny northeast:
+	key(alt-keypad_9)
+
+orient tiny southeast:
+	key(alt-keypad_3)
+
+orient tiny southwest:
+	key(alt-keypad_1)
+
+orient tiny northwest:
+	key(alt-keypad_7)
 
 #talon print:
 printer talon self:
