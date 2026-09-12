@@ -74,7 +74,7 @@ dupe: d
 #ditto: d
 
 #each: e
-evict: e
+embers: e
 #earth: e
 #east: e
 #egg: e
@@ -160,18 +160,19 @@ moose: m
 #matte: m
 #match: m
 #near: n
-north: n
+#north: n
 #norse: n
 #norm: n
 #nape: n
 #naught: n
+nails: n
 #noir: n
 #odd: o
 #ought: o
 #orc: o
 #orb: o
-#opus: o
-onset: o
+opus: o
+#onset: o
 #pan: p
 #play: p
 #pants: p
@@ -215,7 +216,8 @@ torque: t
 #urge: u
 #use: u
 #user: u
-usurp: u
+#usurp: u
+unhook: u
 #vest: v
 #vids: v
 #vacant: v
