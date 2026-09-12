@@ -98,7 +98,8 @@ flank: f
 glance: g
 #hulk: h
 #harp: h
-hubris: h
+#hubris: h
+hooves: h
 #horse: h
 #hunt: h
 #him: h
@@ -155,7 +156,8 @@ lunch: l
 #map: m
 #mash: m
 #moot: m
-moose: m
+#moose: m
+marsh: m
 #mat: m
 #matte: m
 #match: m
@@ -237,7 +239,8 @@ xbox: x
 #yoke: y
 #yelp: y
 #yaks: y
-yields: y
+#yields: y
+yolks: y
 #zipper: z
 #zipline: z
 #zip: z
