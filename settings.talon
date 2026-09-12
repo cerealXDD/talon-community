@@ -144,16 +144,16 @@ vim line top:
 peridot dot:
 	insert('..')
 
-key(f7):
+key(keypad_minus):
     sound.set_microphone("None")
 
-key(f8):
+key(keypad_plus):
     sound.set_microphone("System Default")
 
-key(f5):
+key(keypad_divide):
 	speech.disable()
 
-key(f6):
+key(keypad_multiply):
 	speech.enable()
 
 #key(f11): speech.toggle()
@@ -229,14 +229,14 @@ printer talon sim:
 
 
 
-volume up:
-	key('f8')
-volume down:
-	key('f5')
-volume mute:
-	key('f6')
-volume unmute:
-	key('f7')
+#volume up:
+#	key('f8')
+#volume down:
+#	key('f5')
+#volume mute:
+#	key('f6')
+#volume unmute:
+#	key('f7')
 
 #page down:
 #	key('ctrl-down')
