@@ -26,14 +26,23 @@
     core.repeat_partial_phrase(2)
 
 ^recurse thirst$:
-    core.recurse_partial_phrase(3)
+    core.repeat_partial_phrase(3)
 
-^recurse fork:
+^recurse fork$:
     core.repeat_partial_phrase(4)
 
 #^recurse fifth$:
-^recurse faith$:
+^recurse files$:
     core.repeat_partial_phrase(5)
+
+^recurse sith$:
+    core.repeat_partial_phrase(6)
+^recurse seventh$:
+    core.repeat_partial_phrase(7)
+^recurse faith$:
+    core.repeat_partial_phrase(8)
+^recurse ninth$:
+    core.repeat_partial_phrase(9)
 
 #^repeat decade$:
 ^recurse deck$:

@@ -282,21 +282,21 @@ delete plurals:
 	key('backspace')
 	key('delete')
 
-wipe <number_small> left:
-	key('backspace')
-	repeat(number_small - 1)
-
-wipe <number_small> right:
-	key('delete')
-	repeat(number_small - 1)
-
-wipe one left:
-
-wipe zero left:
-
-wipe one right:
-
-wipe zero right:
+#wipe <number_small> left:
+#	key('backspace')
+#	repeat(number_small - 1)
+#
+#wipe <number_small> right:
+#	key('delete')
+#	repeat(number_small - 1)
+#
+#wipe one left:
+#
+#wipe zero left:
+#
+#wipe one right:
+#
+#wipe zero right:
 
 
 context menu:
