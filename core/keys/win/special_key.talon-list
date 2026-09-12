@@ -14,7 +14,7 @@ stick: underscore
 #dart: enter
 #rush: enter
 #flinch: enter
-gloss: enter
+toss: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
@@ -26,7 +26,8 @@ escape: escape
 bark: space
 #hit: space
 #tab: tab
-tap: tab
+#tap: tab
+flap: tab
 #indent: tab
 #insert: insert
 wipe left: backspace
