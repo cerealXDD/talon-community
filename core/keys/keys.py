@@ -158,7 +158,7 @@ symbol_key_words = {
     "question": "?",
     #"apostrophe": "'",
     "trough": "'",
-    "quote": '"',
+    "double trough": '"',
     #"left square": "[",
     #"right square": "]",
     #"left squat": "[",

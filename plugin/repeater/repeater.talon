@@ -19,14 +19,17 @@
 #^repeat first$:
 #^recurse repeat$:
 #^repeat onus$:
-^recurse peat$:
+^recurse once$:
     core.repeat_partial_phrase(1)
 
 ^recurse twice$:
     core.repeat_partial_phrase(2)
 
-#^repeat trip$:
-#    core.repeat_partial_phrase(3)
+^recurse thirst$:
+    core.recurse_partial_phrase(3)
+
+^recurse fork:
+    core.repeat_partial_phrase(4)
 
 #^recurse fifth$:
 ^recurse faith$:

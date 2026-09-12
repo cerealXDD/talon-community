@@ -14,7 +14,7 @@ plurals block: [ ]
 plurals sharp: < >
 plurals visage: { }
 plurals trough: "' '"
-plurals quote: '" "'
+plurals double trough: '" "'
 plurals critical: ` `
 plurals percent: % %
 #plurals bark: space space
