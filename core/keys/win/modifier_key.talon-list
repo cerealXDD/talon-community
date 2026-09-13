@@ -13,7 +13,8 @@ candy: ctrl
 briny: alt
 #shift: shift
 # super is the windows key
-soupy: super
+#soupy: super
+windy: super
 #super: super
 #command: ctrl
 #this is hard to say
