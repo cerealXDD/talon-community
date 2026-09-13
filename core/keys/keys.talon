@@ -36,6 +36,7 @@ speck <user.special_key>: key(special_key)
 #<user.modifiers> <user.arrow_key>: key("{modifiers}-{arrow_key}")
 <user.modifiers> number <user.number_key>: key("{modifiers}-{number_key}")
 
+#raise number <user.number_key_spec> raise: key("shift-{number_key_spec}")
 raise number <user.number_key_spec> raise: key("shift-{number_key_spec}")
 #<user.modifiers> shift number <user.number_key_spec>: key("{modifiers}-shift-{number_key_spec}")
 
@@ -44,7 +45,8 @@ raise number <user.number_key_spec> raise: key("shift-{number_key_spec}")
 
 #shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
-raise speck <user.special_key> raise: key("shift-{special_key}")
+#raise speck <user.special_key> raise: key("shift-{special_key}")
+raise speck <user.special_key>: key("shift-{special_key}")
 <user.modifiers> raise speck <user.special_key> raise: key("{modifiers}-shift-{special_key}")
 
 #<user.modifiers> shift <user.arrow_key>: key("{modifiers}-shift-{arrow_key}")
