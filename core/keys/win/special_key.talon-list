@@ -15,8 +15,8 @@ minus: minus
 rush: enter
 #flinch: enter
 #ross: enter
-#page down: pagedown
-#page up: pageup
+page down: pagedown
+page up: pageup
 escape: escape
 #digest: escape
 #spacebar: space
