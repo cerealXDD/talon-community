@@ -7,7 +7,7 @@ focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
 #tag(): user.line_commands
 #tag(): user.multiple_cursors
 #tag(): user.splits
-#tag(): user.tabs
+tag(): user.tabs
 #tag(): user.command_search
 #
 #window reload: user.vscode("workbench.action.reloadWindow")
