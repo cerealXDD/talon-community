@@ -7,14 +7,14 @@ os: linux
 #home: home
 #minus: minus
 dash: minus
-stick: underscore
+#stick: underscore
 #enter: enter
 #linefeed: enter
 #feet: enter
 #dart: enter
 #rush: enter
 #flinch: enter
-toss: enter
+ross: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
@@ -26,8 +26,8 @@ escape: escape
 bark: space
 #hit: space
 #tab: tab
-#tap: tab
-flap: tab
+tooth: tab
+#flap: tab
 #indent: tab
 #insert: insert
 wipe left: backspace
