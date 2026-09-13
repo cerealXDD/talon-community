@@ -26,7 +26,8 @@ escape: escape
 bark: space
 #hit: space
 #tab: tab
-tooth: tab
+#tooth: tab
+top: tab
 #flap: tab
 #indent: tab
 #insert: insert
