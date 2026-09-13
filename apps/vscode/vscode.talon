@@ -2,6 +2,10 @@
 app: vscode
 -
 focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
+cell next: user.vscode("notebook.focusNextEditor")
+cell last: user.vscode("notebook.focusPreviousEditor")
+cell run above: user.vscode("notebook.cell.executeCellsAbove")
+cell run: user.vscode("notebook.cell.execute")
 
 #tag(): user.find_and_replace
 #tag(): user.line_commands

@@ -5,16 +5,16 @@ os: linux
 
 #end: end
 #home: home
-#minus: minus
-dash: minus
+minus: minus
+#dash: minus
 #stick: underscore
 #enter: enter
 #linefeed: enter
 #feet: enter
 #dart: enter
-#rush: enter
+rush: enter
 #flinch: enter
-ross: enter
+#ross: enter
 #page down: pagedown
 #page up: pageup
 escape: escape
@@ -27,7 +27,8 @@ bark: space
 #hit: space
 #tab: tab
 #tooth: tab
-tip: tab
+#tip: tab
+tap: tab
 #flap: tab
 #indent: tab
 #insert: insert
