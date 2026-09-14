@@ -19,34 +19,37 @@
 #^repeat first$:
 #^recurse repeat$:
 #^repeat onus$:
-^recurse once$:
+^recurse hearse$:
     core.repeat_partial_phrase(1)
 
-^recurse twice$:
+^recurse toot$:
     core.repeat_partial_phrase(2)
 
-^recurse thirst$:
+^recurse throw$:
     core.repeat_partial_phrase(3)
 
 ^recurse fork$:
     core.repeat_partial_phrase(4)
 
 #^recurse fifth$:
-^recurse files$:
+^recurse faith$:
     core.repeat_partial_phrase(5)
 
-^recurse sith$:
+^recurse six$:
     core.repeat_partial_phrase(6)
-^recurse seventh$:
+^recurse seven$:
     core.repeat_partial_phrase(7)
-^recurse faith$:
+^recurse eight$:
     core.repeat_partial_phrase(8)
-^recurse ninth$:
+^recurse nine$:
     core.repeat_partial_phrase(9)
 
 #^repeat decade$:
 ^recurse deck$:
     core.repeat_partial_phrase(10)
+
+^recurse multi max$:
+    core.repeat_partial_phrase(99)
 
 ^recurse multi twentieth$:
     core.repeat_partial_phrase(20)
