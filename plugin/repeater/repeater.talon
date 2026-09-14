@@ -35,14 +35,14 @@
 ^recurse faith$:
     core.repeat_partial_phrase(5)
 
-^recurse six$:
-    core.repeat_partial_phrase(6)
-^recurse seven$:
-    core.repeat_partial_phrase(7)
-^recurse eight$:
-    core.repeat_partial_phrase(8)
-^recurse nine$:
-    core.repeat_partial_phrase(9)
+#^recurse six$:
+#    core.repeat_partial_phrase(6)
+#^recurse seven$:
+#    core.repeat_partial_phrase(7)
+#^recurse eight$:
+#    core.repeat_partial_phrase(8)
+#^recurse nine$:
+#    core.repeat_partial_phrase(9)
 
 #^repeat decade$:
 ^recurse deck$:
@@ -53,25 +53,18 @@
 
 ^recurse multi twentieth$:
     core.repeat_partial_phrase(20)
-
 ^recurse multi thirtieth$:
     core.repeat_partial_phrase(30)
-
 ^recurse multi fortieth$:
     core.repeat_partial_phrase(40)
-
 ^recurse multi fiftieth$:
     core.repeat_partial_phrase(50)
-
 ^recurse multi sixtieth$:
     core.repeat_partial_phrase(60)
-
 ^recurse multi seventieth$:
     core.repeat_partial_phrase(70)
-
 ^recurse multi eightieth$:
     core.repeat_partial_phrase(80)
-
 ^recurse multi ninetieth$:
     core.repeat_partial_phrase(90)
 
