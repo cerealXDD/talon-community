@@ -119,14 +119,14 @@ settings():
 #test:
 #	key('shift-a')
 
-printer unix plex:
-	user.insert_formatted("tmux", "NOOP")
-
-printer unix vim:
-	user.insert_formatted("vim", "NOOP")
-
-printer unix git:
-	user.insert_formatted("git", "NOOP")
+#printer unix plex:
+#	user.insert_formatted("tmux", "NOOP")
+#
+#printer unix vim:
+#	user.insert_formatted("vim", "NOOP")
+#
+#printer unix git:
+#	user.insert_formatted("git", "NOOP")
 
 #unix grape:
 #	insert('grep')
@@ -282,13 +282,13 @@ delete plurals:
 	key('backspace')
 	key('delete')
 
-#wipe <number_small> left:
-#	key('backspace')
-#	repeat(number_small - 1)
-#
-#wipe <number_small> right:
-#	key('delete')
-#	repeat(number_small - 1)
+wipe <number_small> left:
+	key('backspace')
+	repeat(number_small - 1)
+
+wipe <number_small> right:
+	key('delete')
+	repeat(number_small - 1)
 #
 #wipe one left:
 #

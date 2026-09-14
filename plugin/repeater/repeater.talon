@@ -16,25 +16,35 @@
 #^repeat <user.ordinals>$:
 #    core.repeat_partial_phrase(ordinals)
 
-#^repeat first$:
-#^recurse repeat$:
-#^repeat onus$:
-^recurse hearse$:
+^recurse$:
     core.repeat_partial_phrase(1)
 
-^recurse toot$:
-    core.repeat_partial_phrase(2)
+#^recurse once$:
+#    core.repeat_partial_phrase(1)
+#
+#^recurse toots$:
+#    core.repeat_partial_phrase(2)
+#
+#^recurse throw$:
+#    core.repeat_partial_phrase(3)
+#
+#^recurse fork$:
+#    core.repeat_partial_phrase(4)
+#
+#^recurse faith$:
+#    core.repeat_partial_phrase(5)
 
-^recurse throw$:
-    core.repeat_partial_phrase(3)
 
-^recurse fork$:
-    core.repeat_partial_phrase(4)
-
-#^recurse fifth$:
-^recurse faith$:
-    core.repeat_partial_phrase(5)
-
+#^recurse one$:
+#    core.repeat_partial_phrase(1)
+#^recurse two$:
+#    core.repeat_partial_phrase(2)
+#^recurse three$:
+#    core.repeat_partial_phrase(3)
+#^recurse four$:
+#    core.repeat_partial_phrase(4)
+#^recurse five$:
+#    core.repeat_partial_phrase(5)
 #^recurse six$:
 #    core.repeat_partial_phrase(6)
 #^recurse seven$:
@@ -43,10 +53,8 @@
 #    core.repeat_partial_phrase(8)
 #^recurse nine$:
 #    core.repeat_partial_phrase(9)
-
-#^repeat decade$:
-^recurse deck$:
-    core.repeat_partial_phrase(10)
+#^recurse deck$:
+#    core.repeat_partial_phrase(10)
 
 ^recurse multi max$:
     core.repeat_partial_phrase(99)
