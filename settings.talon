@@ -289,7 +289,19 @@ wipe <number_small> left:
 wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
-#
+
+#clear left <number_small> (character | characters):
+#clear <number_small> left:
+#	edit.extend_left()
+#	repeat(number_small - 1)
+#	edit.delete()
+
+#clear right <number_small> (character | characters):
+#clear <number_small> right:
+#	edit.extend_right()
+#	repeat(number_small - 1)
+#	edit.delete()
+
 #wipe one left:
 #
 #wipe zero left:
