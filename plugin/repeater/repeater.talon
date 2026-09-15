@@ -53,7 +53,7 @@
     core.repeat_partial_phrase(8)
 ^recurse small nine$:
     core.repeat_partial_phrase(9)
-^recurse small deck$:
+^recurse small tense$:
     core.repeat_partial_phrase(10)
 
 ^recurse multi max$:
