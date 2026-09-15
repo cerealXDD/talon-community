@@ -37,24 +37,24 @@
 
 #^recurse one$:
 #    core.repeat_partial_phrase(1)
-#^recurse two$:
-#    core.repeat_partial_phrase(2)
-#^recurse three$:
-#    core.repeat_partial_phrase(3)
-#^recurse four$:
-#    core.repeat_partial_phrase(4)
-#^recurse five$:
-#    core.repeat_partial_phrase(5)
-#^recurse six$:
-#    core.repeat_partial_phrase(6)
-#^recurse seven$:
-#    core.repeat_partial_phrase(7)
-#^recurse eight$:
-#    core.repeat_partial_phrase(8)
-#^recurse nine$:
-#    core.repeat_partial_phrase(9)
-#^recurse deck$:
-#    core.repeat_partial_phrase(10)
+^recurse small two$:
+    core.repeat_partial_phrase(2)
+^recurse small three$:
+    core.repeat_partial_phrase(3)
+^recurse small four$:
+    core.repeat_partial_phrase(4)
+^recurse small five$:
+    core.repeat_partial_phrase(5)
+^recurse small six$:
+    core.repeat_partial_phrase(6)
+^recurse small seven$:
+    core.repeat_partial_phrase(7)
+^recurse small eight$:
+    core.repeat_partial_phrase(8)
+^recurse small nine$:
+    core.repeat_partial_phrase(9)
+^recurse small deck$:
+    core.repeat_partial_phrase(10)
 
 ^recurse multi max$:
     core.repeat_partial_phrase(99)
