@@ -8,7 +8,8 @@ ctx = Context()
 
 digit_list = "zero one two three four five six seven eight nine".split()
 #teens = "ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
-teens = "tense eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+#teens = "tense eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
+teens = "base eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen".split()
 tens = "twenty thirty forty fifty sixty seventy eighty ninety".split()
 scales = "hundred thousand million billion trillion quadrillion quintillion sextillion septillion octillion nonillion decillion".split()
 
