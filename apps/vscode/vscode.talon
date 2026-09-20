@@ -1,7 +1,7 @@
 #custom vscode commands go here
 app: vscode
 -
-focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
+command palette: user.vscode("workbench.action.showCommands")
 
 #tag(): user.find_and_replace
 #tag(): user.line_commands
@@ -45,7 +45,7 @@ tag(): user.tabs
 #panel problems: user.vscode("workbench.panel.markers.view.focus")
 #panel switch: user.vscode("workbench.action.togglePanel")
 #panel terminal: user.vscode("workbench.action.terminal.focus")
-#focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
+focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
 #
 ## Settings
 #show settings: user.vscode("workbench.action.openGlobalSettings")
@@ -285,8 +285,8 @@ tag(): user.tabs
 ## jupyter
 #cell next: user.vscode("notebook.focusNextEditor")
 #cell last: user.vscode("notebook.focusPreviousEditor")
-#cell run above: user.vscode("notebook.cell.executeCellsAbove")
+cell run above: user.vscode("notebook.cell.executeCellsAbove")
 #cell run: user.vscode("notebook.cell.execute")
 #
 #install local: user.vscode("workbench.extensions.action.installVSIX")
-#preview markdown: user.vscode("markdown.showPreview")
+preview markdown: user.vscode("markdown.showPreview")
