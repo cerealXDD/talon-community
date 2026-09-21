@@ -8,7 +8,8 @@
 #letter <user.letters>:
 #let <user.letters>:
 #lead <user.letters>:
-let <user.letters>:
+#let <user.letters>:
+led <user.letters>:
     user.insert_formatted(letters, "NOOP")
 
 #upper:
