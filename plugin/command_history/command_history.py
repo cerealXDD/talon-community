@@ -23,7 +23,8 @@ def on_phrase(j):
     text = actions.user.history_transform_phrase_text(words)
     if text is not None:
         history.append(text)
-        history = history[-settings.get("user.command_history_size") :]
+        #history = history[-settings.get("user.command_history_size") :]
+        history = history[-20:]
 
 
 @imgui.open(y=0)
@@ -34,13 +35,14 @@ def gui(gui: imgui.GUI):
     text = (
         history[:]
         if hist_more
-        else history[-settings.get("user.command_history_display") :]
+        #else history[-settings.get("user.command_history_display") :]
+        else history[-20:]
     )
     for line in text:
         gui.text(line)
 
     gui.spacer()
-    if gui.button("Command history close"):
+    if gui.button("say 'command history' to close"):
         actions.user.history_disable()
 
 
