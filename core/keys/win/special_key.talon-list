@@ -5,7 +5,7 @@ os: linux
 
 #end: end
 #home: home
-minus: minus
+#minus: minus
 #dash: minus
 #stick: underscore
 #enter: enter
