@@ -20,7 +20,7 @@ capital <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
 sim <user.symbol_key>: key(symbol_key)
-#sim <user.symbol_keys>: key(symbol_keys)
+#spike <user.symbol_key>: user.end_line_with_symbol_and_start_line(symbol_key)
 <user.function_key>: key(function_key)
 
 #spec <user.special_key>: key(special_key)

@@ -1,5 +1,6 @@
 list: user.prose_snippets
 -
+
 spacebar: " "
 #space: " "
 #new line: "\n"

@@ -56,8 +56,17 @@ settings():
     # Set the amount to scroll left/right
     user.mouse_wheel_horizontal_amount = 40
 
+    # Set the duration to hold mouse clicks in milliseconds. 0 means no hold.
+    # In some full-screen applications, particularly games, mouse clicks may not
+    # be recognized unless held for a short duration.  If this occurs, try
+    # starting with a setting of 16.
+    user.mouse_click_hold = 0
+
     # If `true`, start mouse grid numbering on the bottom left (vs. top left)
     user.grids_put_one_bottom_left = true
+
+    # If `true`, show a zoomed in version of the mouse grid when it becomes sufficiently small
+    user.grid_show_zoomed = true
 
     # Set the default number of command history lines to display
     user.command_history_display = 45
@@ -72,8 +81,12 @@ settings():
     # .snippet files. Changing this setting requires a restart of Talon.
     # user.snippets_dir = "snippets"
 
+    # Set to the number of spaces to use for each tab when inserting snippets as raw text (without editor support). Set to -1 to insert tabs as tabs, such as in code editors that can expand tabs in pasted or typed text. This setting is provided for applications like web browsers and chat apps that do not understand code formatting.
+    user.snippet_raw_text_spaces_per_tab = 4
+
     # Uncomment to insert text longer than 10 characters (customizable) by pasting from
     # the clipboard. This is often faster than typing.
+    # Note: some contexts (e.g. the terminal tag) may override this global setting.
     # user.paste_to_insert_threshold = 10
 
     # Uncomment to enable context-sensitive dictation. This determines how to format
@@ -88,13 +101,20 @@ settings():
     # -width windows are resized to stay full-height/width.
     # user.window_snap_screen = "size aware"
 
+    # Mode enabled on Talon launch (command by default; dictation or sleep are other options)
+    # user.initial_mode = "sleep"
+
     # Puts Talon into sleep mode if no commands are spoken for a defined period of time.
     # user.listening_timeout_minutes = 3
 
     # Time in seconds to wait for the clipboard to change when trying to get selected text
     # user.selected_text_timeout = 0.25
 
-    #speech.disable()
+    # Time in seconds to sleep after inserting text with `insert_between` (e.g. when using paired delimiters like 'box' or 'round'), before moving the cursor back. Useful to set on a per-application basis, to prevent moving the moving the cursor before text is inserted.
+    # user.insert_between_wait = 0
+
+    # If deprecated commands should throw an exception, which stops the commands from running. You might find this helps you learn the new replacement commands faster.
+    # user.strict_command_deprecation = true
 
 # Uncomment to enable the curse yes/curse no commands (show/hide mouse cursor).
 # See issue #688 for more detail: https://github.com/talonhub/community/issues/688
@@ -115,34 +135,6 @@ settings():
 # By default you need to say "numb one" to write "1". If you uncomment this,
 # you can say "one" to write "1".
 # tag(): user.unprefixed_numbers
-
-#test:
-#	key('shift-a')
-
-#printer unix plex:
-#	user.insert_formatted("tmux", "NOOP")
-#
-#printer unix vim:
-#	user.insert_formatted("vim", "NOOP")
-#
-#printer unix git:
-#	user.insert_formatted("git", "NOOP")
-
-#unix grape:
-#	insert('grep')
-#
-#vim grape:
-#	insert('vimgrep')
-
-#vim indent:
-#	key('ctrl-v')
-#	key('tab')
-
-vim line [number] <number>:
-	insert("\%{number}l")
-
-vim line top:
-	insert("\\%1l")
 
 peridot dot:
 	insert('..')
@@ -167,27 +159,8 @@ auto hotkey kill:
 #hotkey kill:
 	key('win-ctrl-e')
 
-
-speaker box:
-	key('win-]')
-
-#speaker head:
-#	key('win-}')
-
-#screen on:
-#	key('insert')
-#
-#screen off:
-#	#key('pause')
-#	key('scroll_lock')
-#
-#start recording:
-#	key('win-ctrl-{')
-#stop recording:
-#	key('win-{')
-
-#cursor will say cut, disable for now
-#mouse also says cut
+#speaker box:
+#	key('win-]')
 
 orient north:
 	key(keypad_8)
@@ -240,43 +213,6 @@ orient tiny southwest:
 orient tiny northwest:
 	key(alt-keypad_7)
 
-#talon print:
-printer talon self:
-	user.insert_formatted("talon", "NOOP")
-printer talon sim:
-	user.insert_formatted("sim('')", "NOOP")
-
-#cig in:
-#	key('ctrl-c')
-#shell break:
-#	key('ctrl-c')
-#shell meta:
-#	key('ctrl-\\')
-#shell comment:
-#	key('alt-;')
-
-
-
-#volume up:
-#	key('f8')
-#volume down:
-#	key('f5')
-#volume mute:
-#	key('f6')
-#volume unmute:
-#	key('f7')
-
-#page down:
-#	key('ctrl-down')
-#page up:
-#	key('ctrl-up')
-
-#terminal:
-#	key('win-1')
-#spider web:
-#	key('win-2')
-#minimize all:
-#	key('win-m')
 
 delete plurals:
 	key('backspace')
@@ -290,17 +226,6 @@ wipe <number_small> right:
 	key('delete')
 	repeat(number_small - 1)
 
-#clear left <number_small> (character | characters):
-#clear <number_small> left:
-#	edit.extend_left()
-#	repeat(number_small - 1)
-#	edit.delete()
-
-#clear right <number_small> (character | characters):
-#clear <number_small> right:
-#	edit.extend_right()
-#	repeat(number_small - 1)
-#	edit.delete()
 
 #wipe one left:
 #
@@ -314,24 +239,6 @@ wipe <number_small> right:
 context menu:
 	key('win-ctrl-v')
 
-#chess short castle:
-#	insert('o-o')
-#
-#chess long castle:
-#	insert('o-o-o')
-#
-#chess promotion:
-#	insert('=q')
-
-#shift enter:
-#	key('shift-enter')
-
-#shift tab:
-#	key('')
-
-#shift gamma:
-#	key('shift-tab')
-
 #force latex and struck
 
 #letter:
@@ -342,3 +249,6 @@ context menu:
 
 #tab last:
 
+# Uncomment the below to enable the experimental window layout commands
+# defined in window_layout.talon
+# tag(): user.experimental_window_layout
