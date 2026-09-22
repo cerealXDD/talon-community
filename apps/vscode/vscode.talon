@@ -48,13 +48,13 @@ tag(): user.tabs
 focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
 
 # Settings
-show settings: user.vscode("workbench.action.openGlobalSettings")
+#show settings: user.vscode("workbench.action.openGlobalSettings")
 show settings json: user.vscode("workbench.action.openSettingsJson")
-show settings folder: user.vscode("workbench.action.openFolderSettings")
+#show settings folder: user.vscode("workbench.action.openFolderSettings")
 show settings folder json: user.vscode("workbench.action.openFolderSettingsFile")
-show settings workspace: user.vscode("workbench.action.openWorkspaceSettings")
+#show settings workspace: user.vscode("workbench.action.openWorkspaceSettings")
 show settings workspace json: user.vscode("workbench.action.openWorkspaceSettingsFile")
-show shortcuts: user.vscode("workbench.action.openGlobalKeybindings")
+#show shortcuts: user.vscode("workbench.action.openGlobalKeybindings")
 show shortcuts json: user.vscode("workbench.action.openGlobalKeybindingsFile")
 show snippets: user.vscode("workbench.action.openSnippets")
 
