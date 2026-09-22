@@ -7,15 +7,19 @@
 #    insert("{text}{phrase_ender}")
 
 #{user.prose_formatter} <user.prose>$: user.insert_formatted(prose, prose_formatter)
-{user.prose_formatter} <user.prose> {user.phrase_ender}:
-    user.insert_formatted(prose, prose_formatter)
+#{user.prose_formatter} <user.prose> {user.phrase_ender}:
+
+dictate <user.prose> {user.phrase_ender}:
+    user.insert_formatted(prose, "NOOP")
     insert(phrase_ender)
+
 #format multi <user.format_code>+$: user.insert_many(format_code_list)
-multi <user.format_code>+ {user.phrase_ender}:
+
+code <user.format_code>+ {user.phrase_ender}:
     user.insert_many(format_code_list)
     insert(phrase_ender)
-unit {user.word_formatter} <user.word> over: user.insert_formatted(word, word_formatter)
-unit void <user.word> over: user.insert_formatted(word, "NOOP")
+word {user.word_formatter} <user.word> over: user.insert_formatted(word, word_formatter)
+sentry <user.word> over: user.insert_formatted(word, "NOOP")
 
 reformat <user.formatters> that: user.formatters_reformat_selection(user.formatters)
 #sentry <user.word>: user.insert_formatted(word, "NOOP")
