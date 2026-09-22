@@ -62,10 +62,10 @@ show shortcuts: key(ctrl-shift-l)
 # zen switch:
 
 # File Commands
-file hunt [<user.text>]:
-    key(ctrl-shift-r)
-    sleep(50ms)
-    insert(text or "")
+#file hunt [<user.text>]:
+#    key(ctrl-shift-r)
+#    sleep(50ms)
+#    insert(text or "")
 # file copy path:
 # file create sibling:
 file create: key(ctrl-n)
@@ -104,10 +104,10 @@ go forward: key(alt-right)
 
 # Bookmarks.
 #requires https://marketplace.eclipse.org/content/quick-bookmarks
-go marks: key(alt-end)
-toggle mark: key(ctrl-alt-b down enter)
-go next mark: key(alt-pagedown)
-go last mark: key(alt-pageup)
+#go marks: key(alt-end)
+#toggle mark: key(ctrl-alt-b down enter)
+#go next mark: key(alt-pagedown)
+#go last mark: key(alt-pageup)
 
 # Folding
 # fold that:
@@ -140,5 +140,5 @@ debug continue: key(f8)
 # terminal scroll up: user.vscode("Terminal:ScrollUp")
 # terminal scroll down: user.vscode("Terminal:ScrollDown")
 
-copy line down: key(ctrl-alt-down)
-copy line up: key(ctrl-alt-up)
+#copy line down: key(ctrl-alt-down)
+#copy line up: key(ctrl-alt-up)

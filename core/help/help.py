@@ -141,7 +141,8 @@ def update_operators_text():
             operators_text.append(
                 "* operator is implemented as a function call and cannot be displayed"
             )
-        page_size = settings.get("user.help_max_command_lines_per_page")
+        #page_size = settings.get("user.help_max_command_lines_per_page")
+        page_size = 20
         total_page_count = math.ceil(len(operators_text) / page_size)
     # This exception will get raised if there is no operators object defined in the active context
     except NotImplementedError:
@@ -158,7 +159,8 @@ def gui_operators(gui: imgui.GUI):
         gui.text("There is no active programming language when you opened this menu")
         gui.text("or the language does not have operator support.")
     else:
-        page_size = settings.get("user.help_max_command_lines_per_page")
+        #page_size = settings.get("user.help_max_command_lines_per_page")
+        page_size = 20
         page_start = page_size * (current_list_page - 1)
         page_end = page_start + page_size
         gui.text(f"Help: Operators ({current_list_page}/{total_page_count})")
@@ -246,9 +248,8 @@ def get_pages(item_line_counts: list[int]) -> list[int]:
     current_page = 1
     pages = []
     for line_count in item_line_counts:
-        if line_count + current_page_line_count > settings.get(
-            "user.help_max_command_lines_per_page"
-        ):
+        #if line_count + current_page_line_count > settings.get("user.help_max_command_lines_per_page"):
+        if line_count + current_page_line_count > 20:
             if current_page_line_count == 0:
                 # Special case, render a larger page.
                 page = current_page
@@ -637,7 +638,8 @@ def hide_all_help_guis():
 
 
 def paginate_list(data, SIZE=None):
-    chunk_size = SIZE or settings.get("user.help_max_command_lines_per_page")
+    #chunk_size = SIZE or settings.get("user.help_max_command_lines_per_page")
+    chunk_size = 20
     it = iter(data)
     for _ in range(0, len(data), chunk_size):
         yield {k: data[k] for k in islice(it, chunk_size)}
