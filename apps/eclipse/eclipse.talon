@@ -2,12 +2,12 @@
 app: eclipse
 -
 
-tag(): user.find_and_replace
-tag(): user.line_commands
+#tag(): user.find_and_replace
+#tag(): user.line_commands
 # tag(): user.multiple_cursors
-tag(): user.splits
+#tag(): user.splits
 tag(): user.tabs
-tag(): user.command_search
+#tag(): user.command_search
 # splits.py support end
 
 # Sidebar
@@ -123,7 +123,7 @@ break point: key(ctrl-shift-b)
 step over: key(f6)
 debug step into: key(f5)
 debug step out [of]: key(f7)
-#debug start: user.vscode("workbench.action.debug.start")
+debug start: user.vscode("workbench.action.debug.start")
 #debug pause:
 #debug stopper:
 debug continue: key(f8)

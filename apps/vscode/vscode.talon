@@ -19,14 +19,14 @@ tag(): user.tabs
 #    insert(user.text or "")
 
 # Sidebar
-#bar explore: user.vscode("workbench.view.explorer")
+bar explore: user.vscode("workbench.view.explorer")
 #bar extensions: user.vscode("workbench.view.extensions")
 #bar outline: user.vscode("outline.focus")
-#bar run: user.vscode("workbench.view.debug")
+bar run: user.vscode("workbench.view.debug")
 #bar search: user.vscode("workbench.view.search")
 #bar source: user.vscode("workbench.view.scm")
 #bar test: user.vscode("workbench.view.testing.focus")
-#bar switch: user.vscode("workbench.action.toggleSidebarVisibility")
+bar switch: user.vscode("workbench.action.toggleSidebarVisibility")
 
 # Symbol search
 #symbol hunt [<user.text>]:
@@ -40,11 +40,11 @@ tag(): user.tabs
 #    insert(text or "")
 
 # Panels
-#panel control: user.vscode("workbench.panel.repl.view.focus")
-#panel output: user.vscode("workbench.panel.output.focus")
-#panel problems: user.vscode("workbench.panel.markers.view.focus")
-#panel switch: user.vscode("workbench.action.togglePanel")
-#panel terminal: user.vscode("workbench.action.terminal.focus")
+panel control: user.vscode("workbench.panel.repl.view.focus")
+panel output: user.vscode("workbench.panel.output.focus")
+panel problems: user.vscode("workbench.panel.markers.view.focus")
+panel switch: user.vscode("workbench.action.togglePanel")
+panel terminal: user.vscode("workbench.action.terminal.focus")
 focus editor: user.vscode("workbench.action.focusActiveEditorGroup")
 
 # Settings
@@ -101,14 +101,14 @@ zen switch: user.vscode("workbench.action.toggleZenMode")
 #save ugly: user.vscode("workbench.action.files.saveWithoutFormatting")
 
 # Language Features
-suggest show: user.vscode("editor.action.triggerSuggest")
-hint show: user.vscode("editor.action.triggerParameterHints")
-definition show: user.vscode("editor.action.revealDefinition")
-definition peek: user.vscode("editor.action.peekDefinition")
-definition side: user.vscode("editor.action.revealDefinitionAside")
-references show: user.vscode("editor.action.goToReferences")
-hierarchy peek: user.vscode("editor.showCallHierarchy")
-references find: user.vscode("references-view.find")
+#suggest show: user.vscode("editor.action.triggerSuggest")
+#hint show: user.vscode("editor.action.triggerParameterHints")
+#definition show: user.vscode("editor.action.revealDefinition")
+#definition peek: user.vscode("editor.action.peekDefinition")
+#definition side: user.vscode("editor.action.revealDefinitionAside")
+#references show: user.vscode("editor.action.goToReferences")
+#hierarchy peek: user.vscode("editor.showCallHierarchy")
+#references find: user.vscode("references-view.find")
 #format that: user.vscode("editor.action.formatDocument")
 #format selection: user.vscode("editor.action.formatSelection")
 imports fix: user.vscode("editor.action.organizeImports")
