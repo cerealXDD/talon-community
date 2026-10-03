@@ -15,8 +15,10 @@ led <user.letters>:
 #upper:
 
 #upper <user.letters>:
+#capital <user.letters>:
 #capsize <user.letters>:
-capital <user.letters>:
+#cap <user.letters>:
+cab <user.letters>:
     user.insert_formatted(letters, "ALL_CAPS")
 
 sim <user.symbol_key>: key(symbol_key)
@@ -42,7 +44,8 @@ raise number <user.number_key_spec> raise: key("shift-{number_key_spec}")
 #<user.modifiers> shift number <user.number_key_spec>: key("{modifiers}-shift-{number_key_spec}")
 
 <user.modifiers> let <user.letter>: key("{modifiers}-{letter}")
-<user.modifiers> capital <user.letter>: key("{modifiers}-shift-{letter}")
+#<user.modifiers> capital <user.letter>: key("{modifiers}-shift-{letter}")
+<user.modifiers> cab <user.letter>: key("{modifiers}-shift-{letter}")
 
 #shift <user.function_key>: key("shift-{function_key}")
 #<user.modifiers> shift <user.function_key>: key("{modifiers}-shift-{function_key}")
