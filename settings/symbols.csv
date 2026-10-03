@@ -1,28 +1,44 @@
 Symbol,Mode (command/dictation/both),Spoken Forms (separated with commas)
-`,command,back tick
+`,both,back tick
+`,command,grave
 ",",both,comma,coma
 .,both,period,full stop
 .,command,peridot
+;,both,semicolon
 ;,command,flicker
+:,both,colon
 :,command,blinker
 ?,both,question mark
 ?,command,question
+!,both,exclamation mark,exclamation point
+*,both,asterisk
+#,both,hash sign,number sign
+%,both,percent sign
+@,both,at symbol,at sign
+°,both,degree sign
+°,command,degree,degrees
+&,both,ampersand,and sign
 -,both,hyphen
--,command,dash
+-,command,minus
+–,both,en dash,nut dash
+—,both,em dash,mutton dash
 =,command,equals
-+,command,surplus
-~,command,squiggly
-_,command,underscore
-(,command,L thesis,left thesis
-),command,R thesis,right thesis
++,command,plus
+~,command,squiggle
+_,command,down score,underscore
+(,both,L thesis,left thesis
+),both,R thesis,right thesis
 [,command,L block,left block
 ],command,R block,right block
-/,command,whiplash
-\,command,backslash
+/,both,slash
+\,command,escape
 {,command,L visage,left visage
 },command,R visage,right visage
 <,command,L sharp,left sharp
 >,command,R sharp,right sharp
-|,command,pipe
+|,command,vert
 ',command,apostrophe
-"""",command,double trough
+"""",command,dub quote,double quote
+$,both,dollar sign
+£,both,pound sign
+€,both,euro sign
