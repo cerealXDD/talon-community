@@ -3,22 +3,11 @@ os: windows
 os: linux
 -
 
-#end: end
-#home: home
-#minus: minus
-#dash: minus
-#stick: underscore
-#enter: enter
-#linefeed: enter
-#feet: enter
-#dart: enter
 rush: enter
-#flinch: enter
-#ross: enter
 page down: pagedown
 page up: pageup
-escape: escape
-#digest: escape
+#escape: escape
+digest: escape
 #spacebar: space
 #space: space
 #pace: space
