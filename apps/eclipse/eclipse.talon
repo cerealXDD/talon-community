@@ -101,9 +101,10 @@ refactor rename: key(alt-shift-r)
 refactor this: key(alt-shift-i)
 
 #code navigation
-go declaration | follow: key(f3)
-go back: key(alt-left)
-go forward: key(alt-right)
+#go declaration | follow: key(f3)
+go declaration: key(f3)
+#go back: key(alt-left)
+#go forward: key(alt-right)
 # go implementation:
 # go recent:
 # go type:
