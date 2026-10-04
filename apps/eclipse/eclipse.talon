@@ -2,6 +2,11 @@
 app: eclipse
 -
 
+run file: key(ctrl-f11)
+debug start: key(f11)
+debug stopper: key(ctrl-f2)
+perspective: key(ctrl-f8)
+
 #tag(): user.find_and_replace
 #tag(): user.line_commands
 # tag(): user.multiple_cursors
@@ -123,7 +128,7 @@ break point: key(ctrl-shift-b)
 step over: key(f6)
 debug step into: key(f5)
 debug step out [of]: key(f7)
-debug start: user.vscode("workbench.action.debug.start")
+#debug start: user.vscode("workbench.action.debug.start")
 #debug pause:
 #debug stopper:
 debug continue: key(f8)
