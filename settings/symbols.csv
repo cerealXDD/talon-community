@@ -23,8 +23,8 @@ Symbol,Mode (command/dictation/both),Spoken Forms (separated with commas)
 –,both,en dash,nut dash
 —,both,em dash,mutton dash
 =,command,equals
-+,command,plus
-~,command,squiggle
++,command,surplus
+~,command,squiggly
 _,command,down score,underscore
 (,both,L thesis,left thesis
 ),both,R thesis,right thesis
