@@ -6,7 +6,7 @@ run file: key(ctrl-f11)
 debug start: key(f11)
 debug stopper: key(ctrl-f2)
 switch debug: key(ctrl-f8)
-reset perspective: key(ctrl-shift-p)
+#reset perspective: key(ctrl-shift-p)
 focus editor: key(f12)
 
 #tag(): user.find_and_replace
